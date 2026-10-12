@@ -1,0 +1,4810 @@
+{
+  "name": "gem5_rnd_dataset_for_kp920_t1_validation_task0",
+  "description": "Held-out RND cache-model validation dataset for KunPeng920",
+  "trail_repeat": 1,
+  "compute_repeat": 1,
+  "platform": "KunPeng920",
+  "keep_m5out": false,
+  "simulation_configs": [
+    {
+      "M": 5,
+      "K": 416,
+      "N": 416,
+      "thread_type": [
+        1,
+        1,
+        1
+      ],
+      "bins": [
+        {
+          "name": "eppa_np",
+          "bin_name": "gemm_by_eppa_np"
+        },
+        {
+          "name": "eppa_p",
+          "bin_name": "gemm_by_eppa_p"
+        },
+        {
+          "name": "eppa_p_l2p",
+          "bin_name": "gemm_by_eppa_p_l2p"
+        }
+      ]
+    },
+    {
+      "M": 5,
+      "K": 544,
+      "N": 336,
+      "thread_type": [
+        1,
+        1,
+        1
+      ],
+      "bins": [
+        {
+          "name": "eppa_np",
+          "bin_name": "gemm_by_eppa_np"
+        },
+        {
+          "name": "eppa_p",
+          "bin_name": "gemm_by_eppa_p"
+        },
+        {
+          "name": "eppa_p_l2p",
+          "bin_name": "gemm_by_eppa_p_l2p"
+        }
+      ]
+    },
+    {
+      "M": 5,
+      "K": 1016,
+      "N": 960,
+      "thread_type": [
+        1,
+        1,
+        1
+      ],
+      "bins": [
+        {
+          "name": "eppa_np",
+          "bin_name": "gemm_by_eppa_np"
+        },
+        {
+          "name": "eppa_p",
+          "bin_name": "gemm_by_eppa_p"
+        },
+        {
+          "name": "eppa_p_l2p",
+          "bin_name": "gemm_by_eppa_p_l2p"
+        }
+      ]
+    },
+    {
+      "M": 5,
+      "K": 1192,
+      "N": 752,
+      "thread_type": [
+        1,
+        1,
+        1
+      ],
+      "bins": [
+        {
+          "name": "eppa_np",
+          "bin_name": "gemm_by_eppa_np"
+        },
+        {
+          "name": "eppa_p",
+          "bin_name": "gemm_by_eppa_p"
+        },
+        {
+          "name": "eppa_p_l2p",
+          "bin_name": "gemm_by_eppa_p_l2p"
+        }
+      ]
+    },
+    {
+      "M": 5,
+      "K": 1208,
+      "N": 848,
+      "thread_type": [
+        1,
+        1,
+        1
+      ],
+      "bins": [
+        {
+          "name": "eppa_np",
+          "bin_name": "gemm_by_eppa_np"
+        },
+        {
+          "name": "eppa_p",
+          "bin_name": "gemm_by_eppa_p"
+        },
+        {
+          "name": "eppa_p_l2p",
+          "bin_name": "gemm_by_eppa_p_l2p"
+        }
+      ]
+    },
+    {
+      "M": 5,
+      "K": 1448,
+      "N": 688,
+      "thread_type": [
+        1,
+        1,
+        1
+      ],
+      "bins": [
+        {
+          "name": "eppa_np",
+          "bin_name": "gemm_by_eppa_np"
+        },
+        {
+          "name": "eppa_p",
+          "bin_name": "gemm_by_eppa_p"
+        },
+        {
+          "name": "eppa_p_l2p",
+          "bin_name": "gemm_by_eppa_p_l2p"
+        }
+      ]
+    },
+    {
+      "M": 5,
+      "K": 1464,
+      "N": 544,
+      "thread_type": [
+        1,
+        1,
+        1
+      ],
+      "bins": [
+        {
+          "name": "eppa_np",
+          "bin_name": "gemm_by_eppa_np"
+        },
+        {
+          "name": "eppa_p",
+          "bin_name": "gemm_by_eppa_p"
+        },
+        {
+          "name": "eppa_p_l2p",
+          "bin_name": "gemm_by_eppa_p_l2p"
+        }
+      ]
+    },
+    {
+      "M": 5,
+      "K": 1472,
+      "N": 80,
+      "thread_type": [
+        1,
+        1,
+        1
+      ],
+      "bins": [
+        {
+          "name": "eppa_np",
+          "bin_name": "gemm_by_eppa_np"
+        },
+        {
+          "name": "eppa_p",
+          "bin_name": "gemm_by_eppa_p"
+        },
+        {
+          "name": "eppa_p_l2p",
+          "bin_name": "gemm_by_eppa_p_l2p"
+        }
+      ]
+    },
+    {
+      "M": 5,
+      "K": 1600,
+      "N": 416,
+      "thread_type": [
+        1,
+        1,
+        1
+      ],
+      "bins": [
+        {
+          "name": "eppa_np",
+          "bin_name": "gemm_by_eppa_np"
+        },
+        {
+          "name": "eppa_p",
+          "bin_name": "gemm_by_eppa_p"
+        },
+        {
+          "name": "eppa_p_l2p",
+          "bin_name": "gemm_by_eppa_p_l2p"
+        }
+      ]
+    },
+    {
+      "M": 6,
+      "K": 448,
+      "N": 336,
+      "thread_type": [
+        1,
+        1,
+        1
+      ],
+      "bins": [
+        {
+          "name": "eppa_np",
+          "bin_name": "gemm_by_eppa_np"
+        },
+        {
+          "name": "eppa_p",
+          "bin_name": "gemm_by_eppa_p"
+        },
+        {
+          "name": "eppa_p_l2p",
+          "bin_name": "gemm_by_eppa_p_l2p"
+        }
+      ]
+    },
+    {
+      "M": 6,
+      "K": 552,
+      "N": 128,
+      "thread_type": [
+        1,
+        1,
+        1
+      ],
+      "bins": [
+        {
+          "name": "eppa_np",
+          "bin_name": "gemm_by_eppa_np"
+        },
+        {
+          "name": "eppa_p",
+          "bin_name": "gemm_by_eppa_p"
+        },
+        {
+          "name": "eppa_p_l2p",
+          "bin_name": "gemm_by_eppa_p_l2p"
+        }
+      ]
+    },
+    {
+      "M": 6,
+      "K": 680,
+      "N": 352,
+      "thread_type": [
+        1,
+        1,
+        1
+      ],
+      "bins": [
+        {
+          "name": "eppa_np",
+          "bin_name": "gemm_by_eppa_np"
+        },
+        {
+          "name": "eppa_p",
+          "bin_name": "gemm_by_eppa_p"
+        },
+        {
+          "name": "eppa_p_l2p",
+          "bin_name": "gemm_by_eppa_p_l2p"
+        }
+      ]
+    },
+    {
+      "M": 6,
+      "K": 944,
+      "N": 368,
+      "thread_type": [
+        1,
+        1,
+        1
+      ],
+      "bins": [
+        {
+          "name": "eppa_np",
+          "bin_name": "gemm_by_eppa_np"
+        },
+        {
+          "name": "eppa_p",
+          "bin_name": "gemm_by_eppa_p"
+        },
+        {
+          "name": "eppa_p_l2p",
+          "bin_name": "gemm_by_eppa_p_l2p"
+        }
+      ]
+    },
+    {
+      "M": 6,
+      "K": 1000,
+      "N": 736,
+      "thread_type": [
+        1,
+        1,
+        1
+      ],
+      "bins": [
+        {
+          "name": "eppa_np",
+          "bin_name": "gemm_by_eppa_np"
+        },
+        {
+          "name": "eppa_p",
+          "bin_name": "gemm_by_eppa_p"
+        },
+        {
+          "name": "eppa_p_l2p",
+          "bin_name": "gemm_by_eppa_p_l2p"
+        }
+      ]
+    },
+    {
+      "M": 6,
+      "K": 1048,
+      "N": 688,
+      "thread_type": [
+        1,
+        1,
+        1
+      ],
+      "bins": [
+        {
+          "name": "eppa_np",
+          "bin_name": "gemm_by_eppa_np"
+        },
+        {
+          "name": "eppa_p",
+          "bin_name": "gemm_by_eppa_p"
+        },
+        {
+          "name": "eppa_p_l2p",
+          "bin_name": "gemm_by_eppa_p_l2p"
+        }
+      ]
+    },
+    {
+      "M": 6,
+      "K": 1048,
+      "N": 816,
+      "thread_type": [
+        1,
+        1,
+        1
+      ],
+      "bins": [
+        {
+          "name": "eppa_np",
+          "bin_name": "gemm_by_eppa_np"
+        },
+        {
+          "name": "eppa_p",
+          "bin_name": "gemm_by_eppa_p"
+        },
+        {
+          "name": "eppa_p_l2p",
+          "bin_name": "gemm_by_eppa_p_l2p"
+        }
+      ]
+    },
+    {
+      "M": 6,
+      "K": 1224,
+      "N": 784,
+      "thread_type": [
+        1,
+        1,
+        1
+      ],
+      "bins": [
+        {
+          "name": "eppa_np",
+          "bin_name": "gemm_by_eppa_np"
+        },
+        {
+          "name": "eppa_p",
+          "bin_name": "gemm_by_eppa_p"
+        },
+        {
+          "name": "eppa_p_l2p",
+          "bin_name": "gemm_by_eppa_p_l2p"
+        }
+      ]
+    },
+    {
+      "M": 6,
+      "K": 1496,
+      "N": 336,
+      "thread_type": [
+        1,
+        1,
+        1
+      ],
+      "bins": [
+        {
+          "name": "eppa_np",
+          "bin_name": "gemm_by_eppa_np"
+        },
+        {
+          "name": "eppa_p",
+          "bin_name": "gemm_by_eppa_p"
+        },
+        {
+          "name": "eppa_p_l2p",
+          "bin_name": "gemm_by_eppa_p_l2p"
+        }
+      ]
+    },
+    {
+      "M": 6,
+      "K": 2016,
+      "N": 320,
+      "thread_type": [
+        1,
+        1,
+        1
+      ],
+      "bins": [
+        {
+          "name": "eppa_np",
+          "bin_name": "gemm_by_eppa_np"
+        },
+        {
+          "name": "eppa_p",
+          "bin_name": "gemm_by_eppa_p"
+        },
+        {
+          "name": "eppa_p_l2p",
+          "bin_name": "gemm_by_eppa_p_l2p"
+        }
+      ]
+    },
+    {
+      "M": 6,
+      "K": 4368,
+      "N": 208,
+      "thread_type": [
+        1,
+        1,
+        1
+      ],
+      "bins": [
+        {
+          "name": "eppa_np",
+          "bin_name": "gemm_by_eppa_np"
+        },
+        {
+          "name": "eppa_p",
+          "bin_name": "gemm_by_eppa_p"
+        },
+        {
+          "name": "eppa_p_l2p",
+          "bin_name": "gemm_by_eppa_p_l2p"
+        }
+      ]
+    },
+    {
+      "M": 6,
+      "K": 7920,
+      "N": 96,
+      "thread_type": [
+        1,
+        1,
+        1
+      ],
+      "bins": [
+        {
+          "name": "eppa_np",
+          "bin_name": "gemm_by_eppa_np"
+        },
+        {
+          "name": "eppa_p",
+          "bin_name": "gemm_by_eppa_p"
+        },
+        {
+          "name": "eppa_p_l2p",
+          "bin_name": "gemm_by_eppa_p_l2p"
+        }
+      ]
+    },
+    {
+      "M": 7,
+      "K": 864,
+      "N": 320,
+      "thread_type": [
+        1,
+        1,
+        1
+      ],
+      "bins": [
+        {
+          "name": "eppa_np",
+          "bin_name": "gemm_by_eppa_np"
+        },
+        {
+          "name": "eppa_p",
+          "bin_name": "gemm_by_eppa_p"
+        },
+        {
+          "name": "eppa_p_l2p",
+          "bin_name": "gemm_by_eppa_p_l2p"
+        }
+      ]
+    },
+    {
+      "M": 7,
+      "K": 968,
+      "N": 912,
+      "thread_type": [
+        1,
+        1,
+        1
+      ],
+      "bins": [
+        {
+          "name": "eppa_np",
+          "bin_name": "gemm_by_eppa_np"
+        },
+        {
+          "name": "eppa_p",
+          "bin_name": "gemm_by_eppa_p"
+        },
+        {
+          "name": "eppa_p_l2p",
+          "bin_name": "gemm_by_eppa_p_l2p"
+        }
+      ]
+    },
+    {
+      "M": 7,
+      "K": 1056,
+      "N": 848,
+      "thread_type": [
+        1,
+        1,
+        1
+      ],
+      "bins": [
+        {
+          "name": "eppa_np",
+          "bin_name": "gemm_by_eppa_np"
+        },
+        {
+          "name": "eppa_p",
+          "bin_name": "gemm_by_eppa_p"
+        },
+        {
+          "name": "eppa_p_l2p",
+          "bin_name": "gemm_by_eppa_p_l2p"
+        }
+      ]
+    },
+    {
+      "M": 7,
+      "K": 1504,
+      "N": 624,
+      "thread_type": [
+        1,
+        1,
+        1
+      ],
+      "bins": [
+        {
+          "name": "eppa_np",
+          "bin_name": "gemm_by_eppa_np"
+        },
+        {
+          "name": "eppa_p",
+          "bin_name": "gemm_by_eppa_p"
+        },
+        {
+          "name": "eppa_p_l2p",
+          "bin_name": "gemm_by_eppa_p_l2p"
+        }
+      ]
+    },
+    {
+      "M": 7,
+      "K": 2120,
+      "N": 176,
+      "thread_type": [
+        1,
+        1,
+        1
+      ],
+      "bins": [
+        {
+          "name": "eppa_np",
+          "bin_name": "gemm_by_eppa_np"
+        },
+        {
+          "name": "eppa_p",
+          "bin_name": "gemm_by_eppa_p"
+        },
+        {
+          "name": "eppa_p_l2p",
+          "bin_name": "gemm_by_eppa_p_l2p"
+        }
+      ]
+    },
+    {
+      "M": 7,
+      "K": 4728,
+      "N": 144,
+      "thread_type": [
+        1,
+        1,
+        1
+      ],
+      "bins": [
+        {
+          "name": "eppa_np",
+          "bin_name": "gemm_by_eppa_np"
+        },
+        {
+          "name": "eppa_p",
+          "bin_name": "gemm_by_eppa_p"
+        },
+        {
+          "name": "eppa_p_l2p",
+          "bin_name": "gemm_by_eppa_p_l2p"
+        }
+      ]
+    },
+    {
+      "M": 7,
+      "K": 6000,
+      "N": 96,
+      "thread_type": [
+        1,
+        1,
+        1
+      ],
+      "bins": [
+        {
+          "name": "eppa_np",
+          "bin_name": "gemm_by_eppa_np"
+        },
+        {
+          "name": "eppa_p",
+          "bin_name": "gemm_by_eppa_p"
+        },
+        {
+          "name": "eppa_p_l2p",
+          "bin_name": "gemm_by_eppa_p_l2p"
+        }
+      ]
+    },
+    {
+      "M": 7,
+      "K": 12568,
+      "N": 48,
+      "thread_type": [
+        1,
+        1,
+        1
+      ],
+      "bins": [
+        {
+          "name": "eppa_np",
+          "bin_name": "gemm_by_eppa_np"
+        },
+        {
+          "name": "eppa_p",
+          "bin_name": "gemm_by_eppa_p"
+        },
+        {
+          "name": "eppa_p_l2p",
+          "bin_name": "gemm_by_eppa_p_l2p"
+        }
+      ]
+    },
+    {
+      "M": 8,
+      "K": 928,
+      "N": 896,
+      "thread_type": [
+        1,
+        1,
+        1
+      ],
+      "bins": [
+        {
+          "name": "eppa_np",
+          "bin_name": "gemm_by_eppa_np"
+        },
+        {
+          "name": "eppa_p",
+          "bin_name": "gemm_by_eppa_p"
+        },
+        {
+          "name": "eppa_p_l2p",
+          "bin_name": "gemm_by_eppa_p_l2p"
+        }
+      ]
+    },
+    {
+      "M": 8,
+      "K": 1048,
+      "N": 944,
+      "thread_type": [
+        1,
+        1,
+        1
+      ],
+      "bins": [
+        {
+          "name": "eppa_np",
+          "bin_name": "gemm_by_eppa_np"
+        },
+        {
+          "name": "eppa_p",
+          "bin_name": "gemm_by_eppa_p"
+        },
+        {
+          "name": "eppa_p_l2p",
+          "bin_name": "gemm_by_eppa_p_l2p"
+        }
+      ]
+    },
+    {
+      "M": 8,
+      "K": 1088,
+      "N": 720,
+      "thread_type": [
+        1,
+        1,
+        1
+      ],
+      "bins": [
+        {
+          "name": "eppa_np",
+          "bin_name": "gemm_by_eppa_np"
+        },
+        {
+          "name": "eppa_p",
+          "bin_name": "gemm_by_eppa_p"
+        },
+        {
+          "name": "eppa_p_l2p",
+          "bin_name": "gemm_by_eppa_p_l2p"
+        }
+      ]
+    },
+    {
+      "M": 8,
+      "K": 2680,
+      "N": 320,
+      "thread_type": [
+        1,
+        1,
+        1
+      ],
+      "bins": [
+        {
+          "name": "eppa_np",
+          "bin_name": "gemm_by_eppa_np"
+        },
+        {
+          "name": "eppa_p",
+          "bin_name": "gemm_by_eppa_p"
+        },
+        {
+          "name": "eppa_p_l2p",
+          "bin_name": "gemm_by_eppa_p_l2p"
+        }
+      ]
+    },
+    {
+      "M": 8,
+      "K": 6432,
+      "N": 96,
+      "thread_type": [
+        1,
+        1,
+        1
+      ],
+      "bins": [
+        {
+          "name": "eppa_np",
+          "bin_name": "gemm_by_eppa_np"
+        },
+        {
+          "name": "eppa_p",
+          "bin_name": "gemm_by_eppa_p"
+        },
+        {
+          "name": "eppa_p_l2p",
+          "bin_name": "gemm_by_eppa_p_l2p"
+        }
+      ]
+    },
+    {
+      "M": 9,
+      "K": 840,
+      "N": 304,
+      "thread_type": [
+        1,
+        1,
+        1
+      ],
+      "bins": [
+        {
+          "name": "eppa_np",
+          "bin_name": "gemm_by_eppa_np"
+        },
+        {
+          "name": "eppa_p",
+          "bin_name": "gemm_by_eppa_p"
+        },
+        {
+          "name": "eppa_p_l2p",
+          "bin_name": "gemm_by_eppa_p_l2p"
+        }
+      ]
+    },
+    {
+      "M": 9,
+      "K": 1000,
+      "N": 864,
+      "thread_type": [
+        1,
+        1,
+        1
+      ],
+      "bins": [
+        {
+          "name": "eppa_np",
+          "bin_name": "gemm_by_eppa_np"
+        },
+        {
+          "name": "eppa_p",
+          "bin_name": "gemm_by_eppa_p"
+        },
+        {
+          "name": "eppa_p_l2p",
+          "bin_name": "gemm_by_eppa_p_l2p"
+        }
+      ]
+    },
+    {
+      "M": 9,
+      "K": 1024,
+      "N": 512,
+      "thread_type": [
+        1,
+        1,
+        1
+      ],
+      "bins": [
+        {
+          "name": "eppa_np",
+          "bin_name": "gemm_by_eppa_np"
+        },
+        {
+          "name": "eppa_p",
+          "bin_name": "gemm_by_eppa_p"
+        },
+        {
+          "name": "eppa_p_l2p",
+          "bin_name": "gemm_by_eppa_p_l2p"
+        }
+      ]
+    },
+    {
+      "M": 9,
+      "K": 1040,
+      "N": 912,
+      "thread_type": [
+        1,
+        1,
+        1
+      ],
+      "bins": [
+        {
+          "name": "eppa_np",
+          "bin_name": "gemm_by_eppa_np"
+        },
+        {
+          "name": "eppa_p",
+          "bin_name": "gemm_by_eppa_p"
+        },
+        {
+          "name": "eppa_p_l2p",
+          "bin_name": "gemm_by_eppa_p_l2p"
+        }
+      ]
+    },
+    {
+      "M": 9,
+      "K": 1416,
+      "N": 176,
+      "thread_type": [
+        1,
+        1,
+        1
+      ],
+      "bins": [
+        {
+          "name": "eppa_np",
+          "bin_name": "gemm_by_eppa_np"
+        },
+        {
+          "name": "eppa_p",
+          "bin_name": "gemm_by_eppa_p"
+        },
+        {
+          "name": "eppa_p_l2p",
+          "bin_name": "gemm_by_eppa_p_l2p"
+        }
+      ]
+    },
+    {
+      "M": 9,
+      "K": 1536,
+      "N": 496,
+      "thread_type": [
+        1,
+        1,
+        1
+      ],
+      "bins": [
+        {
+          "name": "eppa_np",
+          "bin_name": "gemm_by_eppa_np"
+        },
+        {
+          "name": "eppa_p",
+          "bin_name": "gemm_by_eppa_p"
+        },
+        {
+          "name": "eppa_p_l2p",
+          "bin_name": "gemm_by_eppa_p_l2p"
+        }
+      ]
+    },
+    {
+      "M": 9,
+      "K": 2712,
+      "N": 272,
+      "thread_type": [
+        1,
+        1,
+        1
+      ],
+      "bins": [
+        {
+          "name": "eppa_np",
+          "bin_name": "gemm_by_eppa_np"
+        },
+        {
+          "name": "eppa_p",
+          "bin_name": "gemm_by_eppa_p"
+        },
+        {
+          "name": "eppa_p_l2p",
+          "bin_name": "gemm_by_eppa_p_l2p"
+        }
+      ]
+    },
+    {
+      "M": 9,
+      "K": 17064,
+      "N": 32,
+      "thread_type": [
+        1,
+        1,
+        1
+      ],
+      "bins": [
+        {
+          "name": "eppa_np",
+          "bin_name": "gemm_by_eppa_np"
+        },
+        {
+          "name": "eppa_p",
+          "bin_name": "gemm_by_eppa_p"
+        },
+        {
+          "name": "eppa_p_l2p",
+          "bin_name": "gemm_by_eppa_p_l2p"
+        }
+      ]
+    },
+    {
+      "M": 10,
+      "K": 920,
+      "N": 896,
+      "thread_type": [
+        1,
+        1,
+        1
+      ],
+      "bins": [
+        {
+          "name": "eppa_np",
+          "bin_name": "gemm_by_eppa_np"
+        },
+        {
+          "name": "eppa_p",
+          "bin_name": "gemm_by_eppa_p"
+        },
+        {
+          "name": "eppa_p_l2p",
+          "bin_name": "gemm_by_eppa_p_l2p"
+        }
+      ]
+    },
+    {
+      "M": 10,
+      "K": 984,
+      "N": 528,
+      "thread_type": [
+        1,
+        1,
+        1
+      ],
+      "bins": [
+        {
+          "name": "eppa_np",
+          "bin_name": "gemm_by_eppa_np"
+        },
+        {
+          "name": "eppa_p",
+          "bin_name": "gemm_by_eppa_p"
+        },
+        {
+          "name": "eppa_p_l2p",
+          "bin_name": "gemm_by_eppa_p_l2p"
+        }
+      ]
+    },
+    {
+      "M": 10,
+      "K": 1312,
+      "N": 688,
+      "thread_type": [
+        1,
+        1,
+        1
+      ],
+      "bins": [
+        {
+          "name": "eppa_np",
+          "bin_name": "gemm_by_eppa_np"
+        },
+        {
+          "name": "eppa_p",
+          "bin_name": "gemm_by_eppa_p"
+        },
+        {
+          "name": "eppa_p_l2p",
+          "bin_name": "gemm_by_eppa_p_l2p"
+        }
+      ]
+    },
+    {
+      "M": 10,
+      "K": 1480,
+      "N": 448,
+      "thread_type": [
+        1,
+        1,
+        1
+      ],
+      "bins": [
+        {
+          "name": "eppa_np",
+          "bin_name": "gemm_by_eppa_np"
+        },
+        {
+          "name": "eppa_p",
+          "bin_name": "gemm_by_eppa_p"
+        },
+        {
+          "name": "eppa_p_l2p",
+          "bin_name": "gemm_by_eppa_p_l2p"
+        }
+      ]
+    },
+    {
+      "M": 10,
+      "K": 7712,
+      "N": 96,
+      "thread_type": [
+        1,
+        1,
+        1
+      ],
+      "bins": [
+        {
+          "name": "eppa_np",
+          "bin_name": "gemm_by_eppa_np"
+        },
+        {
+          "name": "eppa_p",
+          "bin_name": "gemm_by_eppa_p"
+        },
+        {
+          "name": "eppa_p_l2p",
+          "bin_name": "gemm_by_eppa_p_l2p"
+        }
+      ]
+    },
+    {
+      "M": 10,
+      "K": 13496,
+      "N": 64,
+      "thread_type": [
+        1,
+        1,
+        1
+      ],
+      "bins": [
+        {
+          "name": "eppa_np",
+          "bin_name": "gemm_by_eppa_np"
+        },
+        {
+          "name": "eppa_p",
+          "bin_name": "gemm_by_eppa_p"
+        },
+        {
+          "name": "eppa_p_l2p",
+          "bin_name": "gemm_by_eppa_p_l2p"
+        }
+      ]
+    },
+    {
+      "M": 11,
+      "K": 544,
+      "N": 480,
+      "thread_type": [
+        1,
+        1,
+        1
+      ],
+      "bins": [
+        {
+          "name": "eppa_np",
+          "bin_name": "gemm_by_eppa_np"
+        },
+        {
+          "name": "eppa_p",
+          "bin_name": "gemm_by_eppa_p"
+        },
+        {
+          "name": "eppa_p_l2p",
+          "bin_name": "gemm_by_eppa_p_l2p"
+        }
+      ]
+    },
+    {
+      "M": 11,
+      "K": 736,
+      "N": 352,
+      "thread_type": [
+        1,
+        1,
+        1
+      ],
+      "bins": [
+        {
+          "name": "eppa_np",
+          "bin_name": "gemm_by_eppa_np"
+        },
+        {
+          "name": "eppa_p",
+          "bin_name": "gemm_by_eppa_p"
+        },
+        {
+          "name": "eppa_p_l2p",
+          "bin_name": "gemm_by_eppa_p_l2p"
+        }
+      ]
+    },
+    {
+      "M": 11,
+      "K": 856,
+      "N": 624,
+      "thread_type": [
+        1,
+        1,
+        1
+      ],
+      "bins": [
+        {
+          "name": "eppa_np",
+          "bin_name": "gemm_by_eppa_np"
+        },
+        {
+          "name": "eppa_p",
+          "bin_name": "gemm_by_eppa_p"
+        },
+        {
+          "name": "eppa_p_l2p",
+          "bin_name": "gemm_by_eppa_p_l2p"
+        }
+      ]
+    },
+    {
+      "M": 11,
+      "K": 888,
+      "N": 704,
+      "thread_type": [
+        1,
+        1,
+        1
+      ],
+      "bins": [
+        {
+          "name": "eppa_np",
+          "bin_name": "gemm_by_eppa_np"
+        },
+        {
+          "name": "eppa_p",
+          "bin_name": "gemm_by_eppa_p"
+        },
+        {
+          "name": "eppa_p_l2p",
+          "bin_name": "gemm_by_eppa_p_l2p"
+        }
+      ]
+    },
+    {
+      "M": 11,
+      "K": 976,
+      "N": 560,
+      "thread_type": [
+        1,
+        1,
+        1
+      ],
+      "bins": [
+        {
+          "name": "eppa_np",
+          "bin_name": "gemm_by_eppa_np"
+        },
+        {
+          "name": "eppa_p",
+          "bin_name": "gemm_by_eppa_p"
+        },
+        {
+          "name": "eppa_p_l2p",
+          "bin_name": "gemm_by_eppa_p_l2p"
+        }
+      ]
+    },
+    {
+      "M": 11,
+      "K": 1008,
+      "N": 560,
+      "thread_type": [
+        1,
+        1,
+        1
+      ],
+      "bins": [
+        {
+          "name": "eppa_np",
+          "bin_name": "gemm_by_eppa_np"
+        },
+        {
+          "name": "eppa_p",
+          "bin_name": "gemm_by_eppa_p"
+        },
+        {
+          "name": "eppa_p_l2p",
+          "bin_name": "gemm_by_eppa_p_l2p"
+        }
+      ]
+    },
+    {
+      "M": 11,
+      "K": 1008,
+      "N": 976,
+      "thread_type": [
+        1,
+        1,
+        1
+      ],
+      "bins": [
+        {
+          "name": "eppa_np",
+          "bin_name": "gemm_by_eppa_np"
+        },
+        {
+          "name": "eppa_p",
+          "bin_name": "gemm_by_eppa_p"
+        },
+        {
+          "name": "eppa_p_l2p",
+          "bin_name": "gemm_by_eppa_p_l2p"
+        }
+      ]
+    },
+    {
+      "M": 11,
+      "K": 1096,
+      "N": 768,
+      "thread_type": [
+        1,
+        1,
+        1
+      ],
+      "bins": [
+        {
+          "name": "eppa_np",
+          "bin_name": "gemm_by_eppa_np"
+        },
+        {
+          "name": "eppa_p",
+          "bin_name": "gemm_by_eppa_p"
+        },
+        {
+          "name": "eppa_p_l2p",
+          "bin_name": "gemm_by_eppa_p_l2p"
+        }
+      ]
+    },
+    {
+      "M": 12,
+      "K": 944,
+      "N": 96,
+      "thread_type": [
+        1,
+        1,
+        1
+      ],
+      "bins": [
+        {
+          "name": "eppa_np",
+          "bin_name": "gemm_by_eppa_np"
+        },
+        {
+          "name": "eppa_p",
+          "bin_name": "gemm_by_eppa_p"
+        },
+        {
+          "name": "eppa_p_l2p",
+          "bin_name": "gemm_by_eppa_p_l2p"
+        }
+      ]
+    },
+    {
+      "M": 12,
+      "K": 1000,
+      "N": 992,
+      "thread_type": [
+        1,
+        1,
+        1
+      ],
+      "bins": [
+        {
+          "name": "eppa_np",
+          "bin_name": "gemm_by_eppa_np"
+        },
+        {
+          "name": "eppa_p",
+          "bin_name": "gemm_by_eppa_p"
+        },
+        {
+          "name": "eppa_p_l2p",
+          "bin_name": "gemm_by_eppa_p_l2p"
+        }
+      ]
+    },
+    {
+      "M": 12,
+      "K": 1088,
+      "N": 704,
+      "thread_type": [
+        1,
+        1,
+        1
+      ],
+      "bins": [
+        {
+          "name": "eppa_np",
+          "bin_name": "gemm_by_eppa_np"
+        },
+        {
+          "name": "eppa_p",
+          "bin_name": "gemm_by_eppa_p"
+        },
+        {
+          "name": "eppa_p_l2p",
+          "bin_name": "gemm_by_eppa_p_l2p"
+        }
+      ]
+    },
+    {
+      "M": 12,
+      "K": 1352,
+      "N": 736,
+      "thread_type": [
+        1,
+        1,
+        1
+      ],
+      "bins": [
+        {
+          "name": "eppa_np",
+          "bin_name": "gemm_by_eppa_np"
+        },
+        {
+          "name": "eppa_p",
+          "bin_name": "gemm_by_eppa_p"
+        },
+        {
+          "name": "eppa_p_l2p",
+          "bin_name": "gemm_by_eppa_p_l2p"
+        }
+      ]
+    },
+    {
+      "M": 12,
+      "K": 1504,
+      "N": 560,
+      "thread_type": [
+        1,
+        1,
+        1
+      ],
+      "bins": [
+        {
+          "name": "eppa_np",
+          "bin_name": "gemm_by_eppa_np"
+        },
+        {
+          "name": "eppa_p",
+          "bin_name": "gemm_by_eppa_p"
+        },
+        {
+          "name": "eppa_p_l2p",
+          "bin_name": "gemm_by_eppa_p_l2p"
+        }
+      ]
+    },
+    {
+      "M": 12,
+      "K": 1904,
+      "N": 272,
+      "thread_type": [
+        1,
+        1,
+        1
+      ],
+      "bins": [
+        {
+          "name": "eppa_np",
+          "bin_name": "gemm_by_eppa_np"
+        },
+        {
+          "name": "eppa_p",
+          "bin_name": "gemm_by_eppa_p"
+        },
+        {
+          "name": "eppa_p_l2p",
+          "bin_name": "gemm_by_eppa_p_l2p"
+        }
+      ]
+    },
+    {
+      "M": 13,
+      "K": 696,
+      "N": 352,
+      "thread_type": [
+        1,
+        1,
+        1
+      ],
+      "bins": [
+        {
+          "name": "eppa_np",
+          "bin_name": "gemm_by_eppa_np"
+        },
+        {
+          "name": "eppa_p",
+          "bin_name": "gemm_by_eppa_p"
+        },
+        {
+          "name": "eppa_p_l2p",
+          "bin_name": "gemm_by_eppa_p_l2p"
+        }
+      ]
+    },
+    {
+      "M": 13,
+      "K": 1224,
+      "N": 720,
+      "thread_type": [
+        1,
+        1,
+        1
+      ],
+      "bins": [
+        {
+          "name": "eppa_np",
+          "bin_name": "gemm_by_eppa_np"
+        },
+        {
+          "name": "eppa_p",
+          "bin_name": "gemm_by_eppa_p"
+        },
+        {
+          "name": "eppa_p_l2p",
+          "bin_name": "gemm_by_eppa_p_l2p"
+        }
+      ]
+    },
+    {
+      "M": 13,
+      "K": 2496,
+      "N": 400,
+      "thread_type": [
+        1,
+        1,
+        1
+      ],
+      "bins": [
+        {
+          "name": "eppa_np",
+          "bin_name": "gemm_by_eppa_np"
+        },
+        {
+          "name": "eppa_p",
+          "bin_name": "gemm_by_eppa_p"
+        },
+        {
+          "name": "eppa_p_l2p",
+          "bin_name": "gemm_by_eppa_p_l2p"
+        }
+      ]
+    },
+    {
+      "M": 14,
+      "K": 928,
+      "N": 848,
+      "thread_type": [
+        1,
+        1,
+        1
+      ],
+      "bins": [
+        {
+          "name": "eppa_np",
+          "bin_name": "gemm_by_eppa_np"
+        },
+        {
+          "name": "eppa_p",
+          "bin_name": "gemm_by_eppa_p"
+        },
+        {
+          "name": "eppa_p_l2p",
+          "bin_name": "gemm_by_eppa_p_l2p"
+        }
+      ]
+    },
+    {
+      "M": 14,
+      "K": 944,
+      "N": 848,
+      "thread_type": [
+        1,
+        1,
+        1
+      ],
+      "bins": [
+        {
+          "name": "eppa_np",
+          "bin_name": "gemm_by_eppa_np"
+        },
+        {
+          "name": "eppa_p",
+          "bin_name": "gemm_by_eppa_p"
+        },
+        {
+          "name": "eppa_p_l2p",
+          "bin_name": "gemm_by_eppa_p_l2p"
+        }
+      ]
+    },
+    {
+      "M": 14,
+      "K": 1024,
+      "N": 960,
+      "thread_type": [
+        1,
+        1,
+        1
+      ],
+      "bins": [
+        {
+          "name": "eppa_np",
+          "bin_name": "gemm_by_eppa_np"
+        },
+        {
+          "name": "eppa_p",
+          "bin_name": "gemm_by_eppa_p"
+        },
+        {
+          "name": "eppa_p_l2p",
+          "bin_name": "gemm_by_eppa_p_l2p"
+        }
+      ]
+    },
+    {
+      "M": 14,
+      "K": 1128,
+      "N": 736,
+      "thread_type": [
+        1,
+        1,
+        1
+      ],
+      "bins": [
+        {
+          "name": "eppa_np",
+          "bin_name": "gemm_by_eppa_np"
+        },
+        {
+          "name": "eppa_p",
+          "bin_name": "gemm_by_eppa_p"
+        },
+        {
+          "name": "eppa_p_l2p",
+          "bin_name": "gemm_by_eppa_p_l2p"
+        }
+      ]
+    },
+    {
+      "M": 14,
+      "K": 2256,
+      "N": 432,
+      "thread_type": [
+        1,
+        1,
+        1
+      ],
+      "bins": [
+        {
+          "name": "eppa_np",
+          "bin_name": "gemm_by_eppa_np"
+        },
+        {
+          "name": "eppa_p",
+          "bin_name": "gemm_by_eppa_p"
+        },
+        {
+          "name": "eppa_p_l2p",
+          "bin_name": "gemm_by_eppa_p_l2p"
+        }
+      ]
+    },
+    {
+      "M": 14,
+      "K": 6696,
+      "N": 112,
+      "thread_type": [
+        1,
+        1,
+        1
+      ],
+      "bins": [
+        {
+          "name": "eppa_np",
+          "bin_name": "gemm_by_eppa_np"
+        },
+        {
+          "name": "eppa_p",
+          "bin_name": "gemm_by_eppa_p"
+        },
+        {
+          "name": "eppa_p_l2p",
+          "bin_name": "gemm_by_eppa_p_l2p"
+        }
+      ]
+    },
+    {
+      "M": 15,
+      "K": 1184,
+      "N": 624,
+      "thread_type": [
+        1,
+        1,
+        1
+      ],
+      "bins": [
+        {
+          "name": "eppa_np",
+          "bin_name": "gemm_by_eppa_np"
+        },
+        {
+          "name": "eppa_p",
+          "bin_name": "gemm_by_eppa_p"
+        },
+        {
+          "name": "eppa_p_l2p",
+          "bin_name": "gemm_by_eppa_p_l2p"
+        }
+      ]
+    },
+    {
+      "M": 15,
+      "K": 1472,
+      "N": 576,
+      "thread_type": [
+        1,
+        1,
+        1
+      ],
+      "bins": [
+        {
+          "name": "eppa_np",
+          "bin_name": "gemm_by_eppa_np"
+        },
+        {
+          "name": "eppa_p",
+          "bin_name": "gemm_by_eppa_p"
+        },
+        {
+          "name": "eppa_p_l2p",
+          "bin_name": "gemm_by_eppa_p_l2p"
+        }
+      ]
+    },
+    {
+      "M": 15,
+      "K": 1568,
+      "N": 240,
+      "thread_type": [
+        1,
+        1,
+        1
+      ],
+      "bins": [
+        {
+          "name": "eppa_np",
+          "bin_name": "gemm_by_eppa_np"
+        },
+        {
+          "name": "eppa_p",
+          "bin_name": "gemm_by_eppa_p"
+        },
+        {
+          "name": "eppa_p_l2p",
+          "bin_name": "gemm_by_eppa_p_l2p"
+        }
+      ]
+    },
+    {
+      "M": 15,
+      "K": 6040,
+      "N": 128,
+      "thread_type": [
+        1,
+        1,
+        1
+      ],
+      "bins": [
+        {
+          "name": "eppa_np",
+          "bin_name": "gemm_by_eppa_np"
+        },
+        {
+          "name": "eppa_p",
+          "bin_name": "gemm_by_eppa_p"
+        },
+        {
+          "name": "eppa_p_l2p",
+          "bin_name": "gemm_by_eppa_p_l2p"
+        }
+      ]
+    },
+    {
+      "M": 16,
+      "K": 688,
+      "N": 592,
+      "thread_type": [
+        1,
+        1,
+        1
+      ],
+      "bins": [
+        {
+          "name": "eppa_np",
+          "bin_name": "gemm_by_eppa_np"
+        },
+        {
+          "name": "eppa_p",
+          "bin_name": "gemm_by_eppa_p"
+        },
+        {
+          "name": "eppa_p_l2p",
+          "bin_name": "gemm_by_eppa_p_l2p"
+        }
+      ]
+    },
+    {
+      "M": 16,
+      "K": 720,
+      "N": 608,
+      "thread_type": [
+        1,
+        1,
+        1
+      ],
+      "bins": [
+        {
+          "name": "eppa_np",
+          "bin_name": "gemm_by_eppa_np"
+        },
+        {
+          "name": "eppa_p",
+          "bin_name": "gemm_by_eppa_p"
+        },
+        {
+          "name": "eppa_p_l2p",
+          "bin_name": "gemm_by_eppa_p_l2p"
+        }
+      ]
+    },
+    {
+      "M": 16,
+      "K": 840,
+      "N": 720,
+      "thread_type": [
+        1,
+        1,
+        1
+      ],
+      "bins": [
+        {
+          "name": "eppa_np",
+          "bin_name": "gemm_by_eppa_np"
+        },
+        {
+          "name": "eppa_p",
+          "bin_name": "gemm_by_eppa_p"
+        },
+        {
+          "name": "eppa_p_l2p",
+          "bin_name": "gemm_by_eppa_p_l2p"
+        }
+      ]
+    },
+    {
+      "M": 16,
+      "K": 928,
+      "N": 896,
+      "thread_type": [
+        1,
+        1,
+        1
+      ],
+      "bins": [
+        {
+          "name": "eppa_np",
+          "bin_name": "gemm_by_eppa_np"
+        },
+        {
+          "name": "eppa_p",
+          "bin_name": "gemm_by_eppa_p"
+        },
+        {
+          "name": "eppa_p_l2p",
+          "bin_name": "gemm_by_eppa_p_l2p"
+        }
+      ]
+    },
+    {
+      "M": 16,
+      "K": 992,
+      "N": 848,
+      "thread_type": [
+        1,
+        1,
+        1
+      ],
+      "bins": [
+        {
+          "name": "eppa_np",
+          "bin_name": "gemm_by_eppa_np"
+        },
+        {
+          "name": "eppa_p",
+          "bin_name": "gemm_by_eppa_p"
+        },
+        {
+          "name": "eppa_p_l2p",
+          "bin_name": "gemm_by_eppa_p_l2p"
+        }
+      ]
+    },
+    {
+      "M": 16,
+      "K": 1072,
+      "N": 512,
+      "thread_type": [
+        1,
+        1,
+        1
+      ],
+      "bins": [
+        {
+          "name": "eppa_np",
+          "bin_name": "gemm_by_eppa_np"
+        },
+        {
+          "name": "eppa_p",
+          "bin_name": "gemm_by_eppa_p"
+        },
+        {
+          "name": "eppa_p_l2p",
+          "bin_name": "gemm_by_eppa_p_l2p"
+        }
+      ]
+    },
+    {
+      "M": 16,
+      "K": 1160,
+      "N": 864,
+      "thread_type": [
+        1,
+        1,
+        1
+      ],
+      "bins": [
+        {
+          "name": "eppa_np",
+          "bin_name": "gemm_by_eppa_np"
+        },
+        {
+          "name": "eppa_p",
+          "bin_name": "gemm_by_eppa_p"
+        },
+        {
+          "name": "eppa_p_l2p",
+          "bin_name": "gemm_by_eppa_p_l2p"
+        }
+      ]
+    },
+    {
+      "M": 16,
+      "K": 1272,
+      "N": 128,
+      "thread_type": [
+        1,
+        1,
+        1
+      ],
+      "bins": [
+        {
+          "name": "eppa_np",
+          "bin_name": "gemm_by_eppa_np"
+        },
+        {
+          "name": "eppa_p",
+          "bin_name": "gemm_by_eppa_p"
+        },
+        {
+          "name": "eppa_p_l2p",
+          "bin_name": "gemm_by_eppa_p_l2p"
+        }
+      ]
+    },
+    {
+      "M": 16,
+      "K": 1904,
+      "N": 256,
+      "thread_type": [
+        1,
+        1,
+        1
+      ],
+      "bins": [
+        {
+          "name": "eppa_np",
+          "bin_name": "gemm_by_eppa_np"
+        },
+        {
+          "name": "eppa_p",
+          "bin_name": "gemm_by_eppa_p"
+        },
+        {
+          "name": "eppa_p_l2p",
+          "bin_name": "gemm_by_eppa_p_l2p"
+        }
+      ]
+    },
+    {
+      "M": 16,
+      "K": 2872,
+      "N": 304,
+      "thread_type": [
+        1,
+        1,
+        1
+      ],
+      "bins": [
+        {
+          "name": "eppa_np",
+          "bin_name": "gemm_by_eppa_np"
+        },
+        {
+          "name": "eppa_p",
+          "bin_name": "gemm_by_eppa_p"
+        },
+        {
+          "name": "eppa_p_l2p",
+          "bin_name": "gemm_by_eppa_p_l2p"
+        }
+      ]
+    },
+    {
+      "M": 16,
+      "K": 4712,
+      "N": 64,
+      "thread_type": [
+        1,
+        1,
+        1
+      ],
+      "bins": [
+        {
+          "name": "eppa_np",
+          "bin_name": "gemm_by_eppa_np"
+        },
+        {
+          "name": "eppa_p",
+          "bin_name": "gemm_by_eppa_p"
+        },
+        {
+          "name": "eppa_p_l2p",
+          "bin_name": "gemm_by_eppa_p_l2p"
+        }
+      ]
+    },
+    {
+      "M": 16,
+      "K": 7216,
+      "N": 32,
+      "thread_type": [
+        1,
+        1,
+        1
+      ],
+      "bins": [
+        {
+          "name": "eppa_np",
+          "bin_name": "gemm_by_eppa_np"
+        },
+        {
+          "name": "eppa_p",
+          "bin_name": "gemm_by_eppa_p"
+        },
+        {
+          "name": "eppa_p_l2p",
+          "bin_name": "gemm_by_eppa_p_l2p"
+        }
+      ]
+    },
+    {
+      "M": 16,
+      "K": 17120,
+      "N": 32,
+      "thread_type": [
+        1,
+        1,
+        1
+      ],
+      "bins": [
+        {
+          "name": "eppa_np",
+          "bin_name": "gemm_by_eppa_np"
+        },
+        {
+          "name": "eppa_p",
+          "bin_name": "gemm_by_eppa_p"
+        },
+        {
+          "name": "eppa_p_l2p",
+          "bin_name": "gemm_by_eppa_p_l2p"
+        }
+      ]
+    },
+    {
+      "M": 17,
+      "K": 720,
+      "N": 688,
+      "thread_type": [
+        1,
+        1,
+        1
+      ],
+      "bins": [
+        {
+          "name": "eppa_np",
+          "bin_name": "gemm_by_eppa_np"
+        },
+        {
+          "name": "eppa_p",
+          "bin_name": "gemm_by_eppa_p"
+        },
+        {
+          "name": "eppa_p_l2p",
+          "bin_name": "gemm_by_eppa_p_l2p"
+        }
+      ]
+    },
+    {
+      "M": 17,
+      "K": 792,
+      "N": 736,
+      "thread_type": [
+        1,
+        1,
+        1
+      ],
+      "bins": [
+        {
+          "name": "eppa_np",
+          "bin_name": "gemm_by_eppa_np"
+        },
+        {
+          "name": "eppa_p",
+          "bin_name": "gemm_by_eppa_p"
+        },
+        {
+          "name": "eppa_p_l2p",
+          "bin_name": "gemm_by_eppa_p_l2p"
+        }
+      ]
+    },
+    {
+      "M": 17,
+      "K": 968,
+      "N": 944,
+      "thread_type": [
+        1,
+        1,
+        1
+      ],
+      "bins": [
+        {
+          "name": "eppa_np",
+          "bin_name": "gemm_by_eppa_np"
+        },
+        {
+          "name": "eppa_p",
+          "bin_name": "gemm_by_eppa_p"
+        },
+        {
+          "name": "eppa_p_l2p",
+          "bin_name": "gemm_by_eppa_p_l2p"
+        }
+      ]
+    },
+    {
+      "M": 17,
+      "K": 1272,
+      "N": 640,
+      "thread_type": [
+        1,
+        1,
+        1
+      ],
+      "bins": [
+        {
+          "name": "eppa_np",
+          "bin_name": "gemm_by_eppa_np"
+        },
+        {
+          "name": "eppa_p",
+          "bin_name": "gemm_by_eppa_p"
+        },
+        {
+          "name": "eppa_p_l2p",
+          "bin_name": "gemm_by_eppa_p_l2p"
+        }
+      ]
+    },
+    {
+      "M": 17,
+      "K": 3968,
+      "N": 224,
+      "thread_type": [
+        1,
+        1,
+        1
+      ],
+      "bins": [
+        {
+          "name": "eppa_np",
+          "bin_name": "gemm_by_eppa_np"
+        },
+        {
+          "name": "eppa_p",
+          "bin_name": "gemm_by_eppa_p"
+        },
+        {
+          "name": "eppa_p_l2p",
+          "bin_name": "gemm_by_eppa_p_l2p"
+        }
+      ]
+    },
+    {
+      "M": 18,
+      "K": 840,
+      "N": 816,
+      "thread_type": [
+        1,
+        1,
+        1
+      ],
+      "bins": [
+        {
+          "name": "eppa_np",
+          "bin_name": "gemm_by_eppa_np"
+        },
+        {
+          "name": "eppa_p",
+          "bin_name": "gemm_by_eppa_p"
+        },
+        {
+          "name": "eppa_p_l2p",
+          "bin_name": "gemm_by_eppa_p_l2p"
+        }
+      ]
+    },
+    {
+      "M": 18,
+      "K": 912,
+      "N": 352,
+      "thread_type": [
+        1,
+        1,
+        1
+      ],
+      "bins": [
+        {
+          "name": "eppa_np",
+          "bin_name": "gemm_by_eppa_np"
+        },
+        {
+          "name": "eppa_p",
+          "bin_name": "gemm_by_eppa_p"
+        },
+        {
+          "name": "eppa_p_l2p",
+          "bin_name": "gemm_by_eppa_p_l2p"
+        }
+      ]
+    },
+    {
+      "M": 18,
+      "K": 944,
+      "N": 944,
+      "thread_type": [
+        1,
+        1,
+        1
+      ],
+      "bins": [
+        {
+          "name": "eppa_np",
+          "bin_name": "gemm_by_eppa_np"
+        },
+        {
+          "name": "eppa_p",
+          "bin_name": "gemm_by_eppa_p"
+        },
+        {
+          "name": "eppa_p_l2p",
+          "bin_name": "gemm_by_eppa_p_l2p"
+        }
+      ]
+    },
+    {
+      "M": 18,
+      "K": 1704,
+      "N": 512,
+      "thread_type": [
+        1,
+        1,
+        1
+      ],
+      "bins": [
+        {
+          "name": "eppa_np",
+          "bin_name": "gemm_by_eppa_np"
+        },
+        {
+          "name": "eppa_p",
+          "bin_name": "gemm_by_eppa_p"
+        },
+        {
+          "name": "eppa_p_l2p",
+          "bin_name": "gemm_by_eppa_p_l2p"
+        }
+      ]
+    },
+    {
+      "M": 18,
+      "K": 1840,
+      "N": 512,
+      "thread_type": [
+        1,
+        1,
+        1
+      ],
+      "bins": [
+        {
+          "name": "eppa_np",
+          "bin_name": "gemm_by_eppa_np"
+        },
+        {
+          "name": "eppa_p",
+          "bin_name": "gemm_by_eppa_p"
+        },
+        {
+          "name": "eppa_p_l2p",
+          "bin_name": "gemm_by_eppa_p_l2p"
+        }
+      ]
+    },
+    {
+      "M": 18,
+      "K": 1880,
+      "N": 416,
+      "thread_type": [
+        1,
+        1,
+        1
+      ],
+      "bins": [
+        {
+          "name": "eppa_np",
+          "bin_name": "gemm_by_eppa_np"
+        },
+        {
+          "name": "eppa_p",
+          "bin_name": "gemm_by_eppa_p"
+        },
+        {
+          "name": "eppa_p_l2p",
+          "bin_name": "gemm_by_eppa_p_l2p"
+        }
+      ]
+    },
+    {
+      "M": 18,
+      "K": 3656,
+      "N": 192,
+      "thread_type": [
+        1,
+        1,
+        1
+      ],
+      "bins": [
+        {
+          "name": "eppa_np",
+          "bin_name": "gemm_by_eppa_np"
+        },
+        {
+          "name": "eppa_p",
+          "bin_name": "gemm_by_eppa_p"
+        },
+        {
+          "name": "eppa_p_l2p",
+          "bin_name": "gemm_by_eppa_p_l2p"
+        }
+      ]
+    },
+    {
+      "M": 19,
+      "K": 368,
+      "N": 288,
+      "thread_type": [
+        1,
+        1,
+        1
+      ],
+      "bins": [
+        {
+          "name": "eppa_np",
+          "bin_name": "gemm_by_eppa_np"
+        },
+        {
+          "name": "eppa_p",
+          "bin_name": "gemm_by_eppa_p"
+        },
+        {
+          "name": "eppa_p_l2p",
+          "bin_name": "gemm_by_eppa_p_l2p"
+        }
+      ]
+    },
+    {
+      "M": 19,
+      "K": 680,
+      "N": 48,
+      "thread_type": [
+        1,
+        1,
+        1
+      ],
+      "bins": [
+        {
+          "name": "eppa_np",
+          "bin_name": "gemm_by_eppa_np"
+        },
+        {
+          "name": "eppa_p",
+          "bin_name": "gemm_by_eppa_p"
+        },
+        {
+          "name": "eppa_p_l2p",
+          "bin_name": "gemm_by_eppa_p_l2p"
+        }
+      ]
+    },
+    {
+      "M": 19,
+      "K": 824,
+      "N": 640,
+      "thread_type": [
+        1,
+        1,
+        1
+      ],
+      "bins": [
+        {
+          "name": "eppa_np",
+          "bin_name": "gemm_by_eppa_np"
+        },
+        {
+          "name": "eppa_p",
+          "bin_name": "gemm_by_eppa_p"
+        },
+        {
+          "name": "eppa_p_l2p",
+          "bin_name": "gemm_by_eppa_p_l2p"
+        }
+      ]
+    },
+    {
+      "M": 19,
+      "K": 912,
+      "N": 880,
+      "thread_type": [
+        1,
+        1,
+        1
+      ],
+      "bins": [
+        {
+          "name": "eppa_np",
+          "bin_name": "gemm_by_eppa_np"
+        },
+        {
+          "name": "eppa_p",
+          "bin_name": "gemm_by_eppa_p"
+        },
+        {
+          "name": "eppa_p_l2p",
+          "bin_name": "gemm_by_eppa_p_l2p"
+        }
+      ]
+    },
+    {
+      "M": 19,
+      "K": 984,
+      "N": 896,
+      "thread_type": [
+        1,
+        1,
+        1
+      ],
+      "bins": [
+        {
+          "name": "eppa_np",
+          "bin_name": "gemm_by_eppa_np"
+        },
+        {
+          "name": "eppa_p",
+          "bin_name": "gemm_by_eppa_p"
+        },
+        {
+          "name": "eppa_p_l2p",
+          "bin_name": "gemm_by_eppa_p_l2p"
+        }
+      ]
+    },
+    {
+      "M": 19,
+      "K": 1048,
+      "N": 736,
+      "thread_type": [
+        1,
+        1,
+        1
+      ],
+      "bins": [
+        {
+          "name": "eppa_np",
+          "bin_name": "gemm_by_eppa_np"
+        },
+        {
+          "name": "eppa_p",
+          "bin_name": "gemm_by_eppa_p"
+        },
+        {
+          "name": "eppa_p_l2p",
+          "bin_name": "gemm_by_eppa_p_l2p"
+        }
+      ]
+    },
+    {
+      "M": 19,
+      "K": 1136,
+      "N": 848,
+      "thread_type": [
+        1,
+        1,
+        1
+      ],
+      "bins": [
+        {
+          "name": "eppa_np",
+          "bin_name": "gemm_by_eppa_np"
+        },
+        {
+          "name": "eppa_p",
+          "bin_name": "gemm_by_eppa_p"
+        },
+        {
+          "name": "eppa_p_l2p",
+          "bin_name": "gemm_by_eppa_p_l2p"
+        }
+      ]
+    },
+    {
+      "M": 19,
+      "K": 1240,
+      "N": 352,
+      "thread_type": [
+        1,
+        1,
+        1
+      ],
+      "bins": [
+        {
+          "name": "eppa_np",
+          "bin_name": "gemm_by_eppa_np"
+        },
+        {
+          "name": "eppa_p",
+          "bin_name": "gemm_by_eppa_p"
+        },
+        {
+          "name": "eppa_p_l2p",
+          "bin_name": "gemm_by_eppa_p_l2p"
+        }
+      ]
+    },
+    {
+      "M": 19,
+      "K": 1392,
+      "N": 64,
+      "thread_type": [
+        1,
+        1,
+        1
+      ],
+      "bins": [
+        {
+          "name": "eppa_np",
+          "bin_name": "gemm_by_eppa_np"
+        },
+        {
+          "name": "eppa_p",
+          "bin_name": "gemm_by_eppa_p"
+        },
+        {
+          "name": "eppa_p_l2p",
+          "bin_name": "gemm_by_eppa_p_l2p"
+        }
+      ]
+    },
+    {
+      "M": 19,
+      "K": 1808,
+      "N": 32,
+      "thread_type": [
+        1,
+        1,
+        1
+      ],
+      "bins": [
+        {
+          "name": "eppa_np",
+          "bin_name": "gemm_by_eppa_np"
+        },
+        {
+          "name": "eppa_p",
+          "bin_name": "gemm_by_eppa_p"
+        },
+        {
+          "name": "eppa_p_l2p",
+          "bin_name": "gemm_by_eppa_p_l2p"
+        }
+      ]
+    },
+    {
+      "M": 19,
+      "K": 1872,
+      "N": 432,
+      "thread_type": [
+        1,
+        1,
+        1
+      ],
+      "bins": [
+        {
+          "name": "eppa_np",
+          "bin_name": "gemm_by_eppa_np"
+        },
+        {
+          "name": "eppa_p",
+          "bin_name": "gemm_by_eppa_p"
+        },
+        {
+          "name": "eppa_p_l2p",
+          "bin_name": "gemm_by_eppa_p_l2p"
+        }
+      ]
+    },
+    {
+      "M": 19,
+      "K": 3488,
+      "N": 240,
+      "thread_type": [
+        1,
+        1,
+        1
+      ],
+      "bins": [
+        {
+          "name": "eppa_np",
+          "bin_name": "gemm_by_eppa_np"
+        },
+        {
+          "name": "eppa_p",
+          "bin_name": "gemm_by_eppa_p"
+        },
+        {
+          "name": "eppa_p_l2p",
+          "bin_name": "gemm_by_eppa_p_l2p"
+        }
+      ]
+    },
+    {
+      "M": 20,
+      "K": 744,
+      "N": 624,
+      "thread_type": [
+        1,
+        1,
+        1
+      ],
+      "bins": [
+        {
+          "name": "eppa_np",
+          "bin_name": "gemm_by_eppa_np"
+        },
+        {
+          "name": "eppa_p",
+          "bin_name": "gemm_by_eppa_p"
+        },
+        {
+          "name": "eppa_p_l2p",
+          "bin_name": "gemm_by_eppa_p_l2p"
+        }
+      ]
+    },
+    {
+      "M": 20,
+      "K": 944,
+      "N": 640,
+      "thread_type": [
+        1,
+        1,
+        1
+      ],
+      "bins": [
+        {
+          "name": "eppa_np",
+          "bin_name": "gemm_by_eppa_np"
+        },
+        {
+          "name": "eppa_p",
+          "bin_name": "gemm_by_eppa_p"
+        },
+        {
+          "name": "eppa_p_l2p",
+          "bin_name": "gemm_by_eppa_p_l2p"
+        }
+      ]
+    },
+    {
+      "M": 20,
+      "K": 1208,
+      "N": 736,
+      "thread_type": [
+        1,
+        1,
+        1
+      ],
+      "bins": [
+        {
+          "name": "eppa_np",
+          "bin_name": "gemm_by_eppa_np"
+        },
+        {
+          "name": "eppa_p",
+          "bin_name": "gemm_by_eppa_p"
+        },
+        {
+          "name": "eppa_p_l2p",
+          "bin_name": "gemm_by_eppa_p_l2p"
+        }
+      ]
+    },
+    {
+      "M": 20,
+      "K": 1224,
+      "N": 576,
+      "thread_type": [
+        1,
+        1,
+        1
+      ],
+      "bins": [
+        {
+          "name": "eppa_np",
+          "bin_name": "gemm_by_eppa_np"
+        },
+        {
+          "name": "eppa_p",
+          "bin_name": "gemm_by_eppa_p"
+        },
+        {
+          "name": "eppa_p_l2p",
+          "bin_name": "gemm_by_eppa_p_l2p"
+        }
+      ]
+    },
+    {
+      "M": 20,
+      "K": 1296,
+      "N": 288,
+      "thread_type": [
+        1,
+        1,
+        1
+      ],
+      "bins": [
+        {
+          "name": "eppa_np",
+          "bin_name": "gemm_by_eppa_np"
+        },
+        {
+          "name": "eppa_p",
+          "bin_name": "gemm_by_eppa_p"
+        },
+        {
+          "name": "eppa_p_l2p",
+          "bin_name": "gemm_by_eppa_p_l2p"
+        }
+      ]
+    },
+    {
+      "M": 20,
+      "K": 1536,
+      "N": 464,
+      "thread_type": [
+        1,
+        1,
+        1
+      ],
+      "bins": [
+        {
+          "name": "eppa_np",
+          "bin_name": "gemm_by_eppa_np"
+        },
+        {
+          "name": "eppa_p",
+          "bin_name": "gemm_by_eppa_p"
+        },
+        {
+          "name": "eppa_p_l2p",
+          "bin_name": "gemm_by_eppa_p_l2p"
+        }
+      ]
+    },
+    {
+      "M": 20,
+      "K": 2352,
+      "N": 400,
+      "thread_type": [
+        1,
+        1,
+        1
+      ],
+      "bins": [
+        {
+          "name": "eppa_np",
+          "bin_name": "gemm_by_eppa_np"
+        },
+        {
+          "name": "eppa_p",
+          "bin_name": "gemm_by_eppa_p"
+        },
+        {
+          "name": "eppa_p_l2p",
+          "bin_name": "gemm_by_eppa_p_l2p"
+        }
+      ]
+    },
+    {
+      "M": 20,
+      "K": 4456,
+      "N": 176,
+      "thread_type": [
+        1,
+        1,
+        1
+      ],
+      "bins": [
+        {
+          "name": "eppa_np",
+          "bin_name": "gemm_by_eppa_np"
+        },
+        {
+          "name": "eppa_p",
+          "bin_name": "gemm_by_eppa_p"
+        },
+        {
+          "name": "eppa_p_l2p",
+          "bin_name": "gemm_by_eppa_p_l2p"
+        }
+      ]
+    },
+    {
+      "M": 20,
+      "K": 6776,
+      "N": 96,
+      "thread_type": [
+        1,
+        1,
+        1
+      ],
+      "bins": [
+        {
+          "name": "eppa_np",
+          "bin_name": "gemm_by_eppa_np"
+        },
+        {
+          "name": "eppa_p",
+          "bin_name": "gemm_by_eppa_p"
+        },
+        {
+          "name": "eppa_p_l2p",
+          "bin_name": "gemm_by_eppa_p_l2p"
+        }
+      ]
+    },
+    {
+      "M": 21,
+      "K": 544,
+      "N": 480,
+      "thread_type": [
+        1,
+        1,
+        1
+      ],
+      "bins": [
+        {
+          "name": "eppa_np",
+          "bin_name": "gemm_by_eppa_np"
+        },
+        {
+          "name": "eppa_p",
+          "bin_name": "gemm_by_eppa_p"
+        },
+        {
+          "name": "eppa_p_l2p",
+          "bin_name": "gemm_by_eppa_p_l2p"
+        }
+      ]
+    },
+    {
+      "M": 21,
+      "K": 976,
+      "N": 944,
+      "thread_type": [
+        1,
+        1,
+        1
+      ],
+      "bins": [
+        {
+          "name": "eppa_np",
+          "bin_name": "gemm_by_eppa_np"
+        },
+        {
+          "name": "eppa_p",
+          "bin_name": "gemm_by_eppa_p"
+        },
+        {
+          "name": "eppa_p_l2p",
+          "bin_name": "gemm_by_eppa_p_l2p"
+        }
+      ]
+    },
+    {
+      "M": 21,
+      "K": 992,
+      "N": 992,
+      "thread_type": [
+        1,
+        1,
+        1
+      ],
+      "bins": [
+        {
+          "name": "eppa_np",
+          "bin_name": "gemm_by_eppa_np"
+        },
+        {
+          "name": "eppa_p",
+          "bin_name": "gemm_by_eppa_p"
+        },
+        {
+          "name": "eppa_p_l2p",
+          "bin_name": "gemm_by_eppa_p_l2p"
+        }
+      ]
+    },
+    {
+      "M": 21,
+      "K": 1024,
+      "N": 320,
+      "thread_type": [
+        1,
+        1,
+        1
+      ],
+      "bins": [
+        {
+          "name": "eppa_np",
+          "bin_name": "gemm_by_eppa_np"
+        },
+        {
+          "name": "eppa_p",
+          "bin_name": "gemm_by_eppa_p"
+        },
+        {
+          "name": "eppa_p_l2p",
+          "bin_name": "gemm_by_eppa_p_l2p"
+        }
+      ]
+    },
+    {
+      "M": 21,
+      "K": 1024,
+      "N": 864,
+      "thread_type": [
+        1,
+        1,
+        1
+      ],
+      "bins": [
+        {
+          "name": "eppa_np",
+          "bin_name": "gemm_by_eppa_np"
+        },
+        {
+          "name": "eppa_p",
+          "bin_name": "gemm_by_eppa_p"
+        },
+        {
+          "name": "eppa_p_l2p",
+          "bin_name": "gemm_by_eppa_p_l2p"
+        }
+      ]
+    },
+    {
+      "M": 21,
+      "K": 1072,
+      "N": 848,
+      "thread_type": [
+        1,
+        1,
+        1
+      ],
+      "bins": [
+        {
+          "name": "eppa_np",
+          "bin_name": "gemm_by_eppa_np"
+        },
+        {
+          "name": "eppa_p",
+          "bin_name": "gemm_by_eppa_p"
+        },
+        {
+          "name": "eppa_p_l2p",
+          "bin_name": "gemm_by_eppa_p_l2p"
+        }
+      ]
+    },
+    {
+      "M": 21,
+      "K": 2456,
+      "N": 384,
+      "thread_type": [
+        1,
+        1,
+        1
+      ],
+      "bins": [
+        {
+          "name": "eppa_np",
+          "bin_name": "gemm_by_eppa_np"
+        },
+        {
+          "name": "eppa_p",
+          "bin_name": "gemm_by_eppa_p"
+        },
+        {
+          "name": "eppa_p_l2p",
+          "bin_name": "gemm_by_eppa_p_l2p"
+        }
+      ]
+    },
+    {
+      "M": 22,
+      "K": 992,
+      "N": 992,
+      "thread_type": [
+        1,
+        1,
+        1
+      ],
+      "bins": [
+        {
+          "name": "eppa_np",
+          "bin_name": "gemm_by_eppa_np"
+        },
+        {
+          "name": "eppa_p",
+          "bin_name": "gemm_by_eppa_p"
+        },
+        {
+          "name": "eppa_p_l2p",
+          "bin_name": "gemm_by_eppa_p_l2p"
+        }
+      ]
+    },
+    {
+      "M": 22,
+      "K": 1152,
+      "N": 384,
+      "thread_type": [
+        1,
+        1,
+        1
+      ],
+      "bins": [
+        {
+          "name": "eppa_np",
+          "bin_name": "gemm_by_eppa_np"
+        },
+        {
+          "name": "eppa_p",
+          "bin_name": "gemm_by_eppa_p"
+        },
+        {
+          "name": "eppa_p_l2p",
+          "bin_name": "gemm_by_eppa_p_l2p"
+        }
+      ]
+    },
+    {
+      "M": 22,
+      "K": 1664,
+      "N": 352,
+      "thread_type": [
+        1,
+        1,
+        1
+      ],
+      "bins": [
+        {
+          "name": "eppa_np",
+          "bin_name": "gemm_by_eppa_np"
+        },
+        {
+          "name": "eppa_p",
+          "bin_name": "gemm_by_eppa_p"
+        },
+        {
+          "name": "eppa_p_l2p",
+          "bin_name": "gemm_by_eppa_p_l2p"
+        }
+      ]
+    },
+    {
+      "M": 22,
+      "K": 2752,
+      "N": 176,
+      "thread_type": [
+        1,
+        1,
+        1
+      ],
+      "bins": [
+        {
+          "name": "eppa_np",
+          "bin_name": "gemm_by_eppa_np"
+        },
+        {
+          "name": "eppa_p",
+          "bin_name": "gemm_by_eppa_p"
+        },
+        {
+          "name": "eppa_p_l2p",
+          "bin_name": "gemm_by_eppa_p_l2p"
+        }
+      ]
+    },
+    {
+      "M": 22,
+      "K": 4392,
+      "N": 96,
+      "thread_type": [
+        1,
+        1,
+        1
+      ],
+      "bins": [
+        {
+          "name": "eppa_np",
+          "bin_name": "gemm_by_eppa_np"
+        },
+        {
+          "name": "eppa_p",
+          "bin_name": "gemm_by_eppa_p"
+        },
+        {
+          "name": "eppa_p_l2p",
+          "bin_name": "gemm_by_eppa_p_l2p"
+        }
+      ]
+    },
+    {
+      "M": 22,
+      "K": 5008,
+      "N": 160,
+      "thread_type": [
+        1,
+        1,
+        1
+      ],
+      "bins": [
+        {
+          "name": "eppa_np",
+          "bin_name": "gemm_by_eppa_np"
+        },
+        {
+          "name": "eppa_p",
+          "bin_name": "gemm_by_eppa_p"
+        },
+        {
+          "name": "eppa_p_l2p",
+          "bin_name": "gemm_by_eppa_p_l2p"
+        }
+      ]
+    },
+    {
+      "M": 22,
+      "K": 8632,
+      "N": 64,
+      "thread_type": [
+        1,
+        1,
+        1
+      ],
+      "bins": [
+        {
+          "name": "eppa_np",
+          "bin_name": "gemm_by_eppa_np"
+        },
+        {
+          "name": "eppa_p",
+          "bin_name": "gemm_by_eppa_p"
+        },
+        {
+          "name": "eppa_p_l2p",
+          "bin_name": "gemm_by_eppa_p_l2p"
+        }
+      ]
+    },
+    {
+      "M": 23,
+      "K": 576,
+      "N": 544,
+      "thread_type": [
+        1,
+        1,
+        1
+      ],
+      "bins": [
+        {
+          "name": "eppa_np",
+          "bin_name": "gemm_by_eppa_np"
+        },
+        {
+          "name": "eppa_p",
+          "bin_name": "gemm_by_eppa_p"
+        },
+        {
+          "name": "eppa_p_l2p",
+          "bin_name": "gemm_by_eppa_p_l2p"
+        }
+      ]
+    },
+    {
+      "M": 23,
+      "K": 696,
+      "N": 192,
+      "thread_type": [
+        1,
+        1,
+        1
+      ],
+      "bins": [
+        {
+          "name": "eppa_np",
+          "bin_name": "gemm_by_eppa_np"
+        },
+        {
+          "name": "eppa_p",
+          "bin_name": "gemm_by_eppa_p"
+        },
+        {
+          "name": "eppa_p_l2p",
+          "bin_name": "gemm_by_eppa_p_l2p"
+        }
+      ]
+    },
+    {
+      "M": 23,
+      "K": 768,
+      "N": 704,
+      "thread_type": [
+        1,
+        1,
+        1
+      ],
+      "bins": [
+        {
+          "name": "eppa_np",
+          "bin_name": "gemm_by_eppa_np"
+        },
+        {
+          "name": "eppa_p",
+          "bin_name": "gemm_by_eppa_p"
+        },
+        {
+          "name": "eppa_p_l2p",
+          "bin_name": "gemm_by_eppa_p_l2p"
+        }
+      ]
+    },
+    {
+      "M": 23,
+      "K": 944,
+      "N": 944,
+      "thread_type": [
+        1,
+        1,
+        1
+      ],
+      "bins": [
+        {
+          "name": "eppa_np",
+          "bin_name": "gemm_by_eppa_np"
+        },
+        {
+          "name": "eppa_p",
+          "bin_name": "gemm_by_eppa_p"
+        },
+        {
+          "name": "eppa_p_l2p",
+          "bin_name": "gemm_by_eppa_p_l2p"
+        }
+      ]
+    },
+    {
+      "M": 23,
+      "K": 992,
+      "N": 896,
+      "thread_type": [
+        1,
+        1,
+        1
+      ],
+      "bins": [
+        {
+          "name": "eppa_np",
+          "bin_name": "gemm_by_eppa_np"
+        },
+        {
+          "name": "eppa_p",
+          "bin_name": "gemm_by_eppa_p"
+        },
+        {
+          "name": "eppa_p_l2p",
+          "bin_name": "gemm_by_eppa_p_l2p"
+        }
+      ]
+    },
+    {
+      "M": 23,
+      "K": 1464,
+      "N": 496,
+      "thread_type": [
+        1,
+        1,
+        1
+      ],
+      "bins": [
+        {
+          "name": "eppa_np",
+          "bin_name": "gemm_by_eppa_np"
+        },
+        {
+          "name": "eppa_p",
+          "bin_name": "gemm_by_eppa_p"
+        },
+        {
+          "name": "eppa_p_l2p",
+          "bin_name": "gemm_by_eppa_p_l2p"
+        }
+      ]
+    },
+    {
+      "M": 23,
+      "K": 1480,
+      "N": 320,
+      "thread_type": [
+        1,
+        1,
+        1
+      ],
+      "bins": [
+        {
+          "name": "eppa_np",
+          "bin_name": "gemm_by_eppa_np"
+        },
+        {
+          "name": "eppa_p",
+          "bin_name": "gemm_by_eppa_p"
+        },
+        {
+          "name": "eppa_p_l2p",
+          "bin_name": "gemm_by_eppa_p_l2p"
+        }
+      ]
+    },
+    {
+      "M": 23,
+      "K": 1744,
+      "N": 416,
+      "thread_type": [
+        1,
+        1,
+        1
+      ],
+      "bins": [
+        {
+          "name": "eppa_np",
+          "bin_name": "gemm_by_eppa_np"
+        },
+        {
+          "name": "eppa_p",
+          "bin_name": "gemm_by_eppa_p"
+        },
+        {
+          "name": "eppa_p_l2p",
+          "bin_name": "gemm_by_eppa_p_l2p"
+        }
+      ]
+    },
+    {
+      "M": 23,
+      "K": 2336,
+      "N": 320,
+      "thread_type": [
+        1,
+        1,
+        1
+      ],
+      "bins": [
+        {
+          "name": "eppa_np",
+          "bin_name": "gemm_by_eppa_np"
+        },
+        {
+          "name": "eppa_p",
+          "bin_name": "gemm_by_eppa_p"
+        },
+        {
+          "name": "eppa_p_l2p",
+          "bin_name": "gemm_by_eppa_p_l2p"
+        }
+      ]
+    },
+    {
+      "M": 23,
+      "K": 2656,
+      "N": 96,
+      "thread_type": [
+        1,
+        1,
+        1
+      ],
+      "bins": [
+        {
+          "name": "eppa_np",
+          "bin_name": "gemm_by_eppa_np"
+        },
+        {
+          "name": "eppa_p",
+          "bin_name": "gemm_by_eppa_p"
+        },
+        {
+          "name": "eppa_p_l2p",
+          "bin_name": "gemm_by_eppa_p_l2p"
+        }
+      ]
+    },
+    {
+      "M": 24,
+      "K": 816,
+      "N": 528,
+      "thread_type": [
+        1,
+        1,
+        1
+      ],
+      "bins": [
+        {
+          "name": "eppa_np",
+          "bin_name": "gemm_by_eppa_np"
+        },
+        {
+          "name": "eppa_p",
+          "bin_name": "gemm_by_eppa_p"
+        },
+        {
+          "name": "eppa_p_l2p",
+          "bin_name": "gemm_by_eppa_p_l2p"
+        }
+      ]
+    },
+    {
+      "M": 24,
+      "K": 848,
+      "N": 800,
+      "thread_type": [
+        1,
+        1,
+        1
+      ],
+      "bins": [
+        {
+          "name": "eppa_np",
+          "bin_name": "gemm_by_eppa_np"
+        },
+        {
+          "name": "eppa_p",
+          "bin_name": "gemm_by_eppa_p"
+        },
+        {
+          "name": "eppa_p_l2p",
+          "bin_name": "gemm_by_eppa_p_l2p"
+        }
+      ]
+    },
+    {
+      "M": 24,
+      "K": 904,
+      "N": 880,
+      "thread_type": [
+        1,
+        1,
+        1
+      ],
+      "bins": [
+        {
+          "name": "eppa_np",
+          "bin_name": "gemm_by_eppa_np"
+        },
+        {
+          "name": "eppa_p",
+          "bin_name": "gemm_by_eppa_p"
+        },
+        {
+          "name": "eppa_p_l2p",
+          "bin_name": "gemm_by_eppa_p_l2p"
+        }
+      ]
+    },
+    {
+      "M": 24,
+      "K": 1080,
+      "N": 832,
+      "thread_type": [
+        1,
+        1,
+        1
+      ],
+      "bins": [
+        {
+          "name": "eppa_np",
+          "bin_name": "gemm_by_eppa_np"
+        },
+        {
+          "name": "eppa_p",
+          "bin_name": "gemm_by_eppa_p"
+        },
+        {
+          "name": "eppa_p_l2p",
+          "bin_name": "gemm_by_eppa_p_l2p"
+        }
+      ]
+    },
+    {
+      "M": 24,
+      "K": 2520,
+      "N": 384,
+      "thread_type": [
+        1,
+        1,
+        1
+      ],
+      "bins": [
+        {
+          "name": "eppa_np",
+          "bin_name": "gemm_by_eppa_np"
+        },
+        {
+          "name": "eppa_p",
+          "bin_name": "gemm_by_eppa_p"
+        },
+        {
+          "name": "eppa_p_l2p",
+          "bin_name": "gemm_by_eppa_p_l2p"
+        }
+      ]
+    },
+    {
+      "M": 24,
+      "K": 5984,
+      "N": 112,
+      "thread_type": [
+        1,
+        1,
+        1
+      ],
+      "bins": [
+        {
+          "name": "eppa_np",
+          "bin_name": "gemm_by_eppa_np"
+        },
+        {
+          "name": "eppa_p",
+          "bin_name": "gemm_by_eppa_p"
+        },
+        {
+          "name": "eppa_p_l2p",
+          "bin_name": "gemm_by_eppa_p_l2p"
+        }
+      ]
+    },
+    {
+      "M": 25,
+      "K": 832,
+      "N": 784,
+      "thread_type": [
+        1,
+        1,
+        1
+      ],
+      "bins": [
+        {
+          "name": "eppa_np",
+          "bin_name": "gemm_by_eppa_np"
+        },
+        {
+          "name": "eppa_p",
+          "bin_name": "gemm_by_eppa_p"
+        },
+        {
+          "name": "eppa_p_l2p",
+          "bin_name": "gemm_by_eppa_p_l2p"
+        }
+      ]
+    },
+    {
+      "M": 25,
+      "K": 1032,
+      "N": 768,
+      "thread_type": [
+        1,
+        1,
+        1
+      ],
+      "bins": [
+        {
+          "name": "eppa_np",
+          "bin_name": "gemm_by_eppa_np"
+        },
+        {
+          "name": "eppa_p",
+          "bin_name": "gemm_by_eppa_p"
+        },
+        {
+          "name": "eppa_p_l2p",
+          "bin_name": "gemm_by_eppa_p_l2p"
+        }
+      ]
+    },
+    {
+      "M": 25,
+      "K": 1272,
+      "N": 720,
+      "thread_type": [
+        1,
+        1,
+        1
+      ],
+      "bins": [
+        {
+          "name": "eppa_np",
+          "bin_name": "gemm_by_eppa_np"
+        },
+        {
+          "name": "eppa_p",
+          "bin_name": "gemm_by_eppa_p"
+        },
+        {
+          "name": "eppa_p_l2p",
+          "bin_name": "gemm_by_eppa_p_l2p"
+        }
+      ]
+    },
+    {
+      "M": 25,
+      "K": 3280,
+      "N": 144,
+      "thread_type": [
+        1,
+        1,
+        1
+      ],
+      "bins": [
+        {
+          "name": "eppa_np",
+          "bin_name": "gemm_by_eppa_np"
+        },
+        {
+          "name": "eppa_p",
+          "bin_name": "gemm_by_eppa_p"
+        },
+        {
+          "name": "eppa_p_l2p",
+          "bin_name": "gemm_by_eppa_p_l2p"
+        }
+      ]
+    },
+    {
+      "M": 25,
+      "K": 7640,
+      "N": 48,
+      "thread_type": [
+        1,
+        1,
+        1
+      ],
+      "bins": [
+        {
+          "name": "eppa_np",
+          "bin_name": "gemm_by_eppa_np"
+        },
+        {
+          "name": "eppa_p",
+          "bin_name": "gemm_by_eppa_p"
+        },
+        {
+          "name": "eppa_p_l2p",
+          "bin_name": "gemm_by_eppa_p_l2p"
+        }
+      ]
+    },
+    {
+      "M": 25,
+      "K": 12176,
+      "N": 48,
+      "thread_type": [
+        1,
+        1,
+        1
+      ],
+      "bins": [
+        {
+          "name": "eppa_np",
+          "bin_name": "gemm_by_eppa_np"
+        },
+        {
+          "name": "eppa_p",
+          "bin_name": "gemm_by_eppa_p"
+        },
+        {
+          "name": "eppa_p_l2p",
+          "bin_name": "gemm_by_eppa_p_l2p"
+        }
+      ]
+    },
+    {
+      "M": 26,
+      "K": 824,
+      "N": 736,
+      "thread_type": [
+        1,
+        1,
+        1
+      ],
+      "bins": [
+        {
+          "name": "eppa_np",
+          "bin_name": "gemm_by_eppa_np"
+        },
+        {
+          "name": "eppa_p",
+          "bin_name": "gemm_by_eppa_p"
+        },
+        {
+          "name": "eppa_p_l2p",
+          "bin_name": "gemm_by_eppa_p_l2p"
+        }
+      ]
+    },
+    {
+      "M": 26,
+      "K": 1016,
+      "N": 368,
+      "thread_type": [
+        1,
+        1,
+        1
+      ],
+      "bins": [
+        {
+          "name": "eppa_np",
+          "bin_name": "gemm_by_eppa_np"
+        },
+        {
+          "name": "eppa_p",
+          "bin_name": "gemm_by_eppa_p"
+        },
+        {
+          "name": "eppa_p_l2p",
+          "bin_name": "gemm_by_eppa_p_l2p"
+        }
+      ]
+    },
+    {
+      "M": 26,
+      "K": 1064,
+      "N": 480,
+      "thread_type": [
+        1,
+        1,
+        1
+      ],
+      "bins": [
+        {
+          "name": "eppa_np",
+          "bin_name": "gemm_by_eppa_np"
+        },
+        {
+          "name": "eppa_p",
+          "bin_name": "gemm_by_eppa_p"
+        },
+        {
+          "name": "eppa_p_l2p",
+          "bin_name": "gemm_by_eppa_p_l2p"
+        }
+      ]
+    },
+    {
+      "M": 26,
+      "K": 1296,
+      "N": 720,
+      "thread_type": [
+        1,
+        1,
+        1
+      ],
+      "bins": [
+        {
+          "name": "eppa_np",
+          "bin_name": "gemm_by_eppa_np"
+        },
+        {
+          "name": "eppa_p",
+          "bin_name": "gemm_by_eppa_p"
+        },
+        {
+          "name": "eppa_p_l2p",
+          "bin_name": "gemm_by_eppa_p_l2p"
+        }
+      ]
+    },
+    {
+      "M": 26,
+      "K": 1632,
+      "N": 560,
+      "thread_type": [
+        1,
+        1,
+        1
+      ],
+      "bins": [
+        {
+          "name": "eppa_np",
+          "bin_name": "gemm_by_eppa_np"
+        },
+        {
+          "name": "eppa_p",
+          "bin_name": "gemm_by_eppa_p"
+        },
+        {
+          "name": "eppa_p_l2p",
+          "bin_name": "gemm_by_eppa_p_l2p"
+        }
+      ]
+    },
+    {
+      "M": 26,
+      "K": 2648,
+      "N": 112,
+      "thread_type": [
+        1,
+        1,
+        1
+      ],
+      "bins": [
+        {
+          "name": "eppa_np",
+          "bin_name": "gemm_by_eppa_np"
+        },
+        {
+          "name": "eppa_p",
+          "bin_name": "gemm_by_eppa_p"
+        },
+        {
+          "name": "eppa_p_l2p",
+          "bin_name": "gemm_by_eppa_p_l2p"
+        }
+      ]
+    },
+    {
+      "M": 26,
+      "K": 3992,
+      "N": 80,
+      "thread_type": [
+        1,
+        1,
+        1
+      ],
+      "bins": [
+        {
+          "name": "eppa_np",
+          "bin_name": "gemm_by_eppa_np"
+        },
+        {
+          "name": "eppa_p",
+          "bin_name": "gemm_by_eppa_p"
+        },
+        {
+          "name": "eppa_p_l2p",
+          "bin_name": "gemm_by_eppa_p_l2p"
+        }
+      ]
+    },
+    {
+      "M": 27,
+      "K": 680,
+      "N": 496,
+      "thread_type": [
+        1,
+        1,
+        1
+      ],
+      "bins": [
+        {
+          "name": "eppa_np",
+          "bin_name": "gemm_by_eppa_np"
+        },
+        {
+          "name": "eppa_p",
+          "bin_name": "gemm_by_eppa_p"
+        },
+        {
+          "name": "eppa_p_l2p",
+          "bin_name": "gemm_by_eppa_p_l2p"
+        }
+      ]
+    },
+    {
+      "M": 27,
+      "K": 1232,
+      "N": 688,
+      "thread_type": [
+        1,
+        1,
+        1
+      ],
+      "bins": [
+        {
+          "name": "eppa_np",
+          "bin_name": "gemm_by_eppa_np"
+        },
+        {
+          "name": "eppa_p",
+          "bin_name": "gemm_by_eppa_p"
+        },
+        {
+          "name": "eppa_p_l2p",
+          "bin_name": "gemm_by_eppa_p_l2p"
+        }
+      ]
+    },
+    {
+      "M": 27,
+      "K": 1840,
+      "N": 496,
+      "thread_type": [
+        1,
+        1,
+        1
+      ],
+      "bins": [
+        {
+          "name": "eppa_np",
+          "bin_name": "gemm_by_eppa_np"
+        },
+        {
+          "name": "eppa_p",
+          "bin_name": "gemm_by_eppa_p"
+        },
+        {
+          "name": "eppa_p_l2p",
+          "bin_name": "gemm_by_eppa_p_l2p"
+        }
+      ]
+    },
+    {
+      "M": 27,
+      "K": 2024,
+      "N": 448,
+      "thread_type": [
+        1,
+        1,
+        1
+      ],
+      "bins": [
+        {
+          "name": "eppa_np",
+          "bin_name": "gemm_by_eppa_np"
+        },
+        {
+          "name": "eppa_p",
+          "bin_name": "gemm_by_eppa_p"
+        },
+        {
+          "name": "eppa_p_l2p",
+          "bin_name": "gemm_by_eppa_p_l2p"
+        }
+      ]
+    },
+    {
+      "M": 27,
+      "K": 2464,
+      "N": 112,
+      "thread_type": [
+        1,
+        1,
+        1
+      ],
+      "bins": [
+        {
+          "name": "eppa_np",
+          "bin_name": "gemm_by_eppa_np"
+        },
+        {
+          "name": "eppa_p",
+          "bin_name": "gemm_by_eppa_p"
+        },
+        {
+          "name": "eppa_p_l2p",
+          "bin_name": "gemm_by_eppa_p_l2p"
+        }
+      ]
+    },
+    {
+      "M": 27,
+      "K": 2880,
+      "N": 256,
+      "thread_type": [
+        1,
+        1,
+        1
+      ],
+      "bins": [
+        {
+          "name": "eppa_np",
+          "bin_name": "gemm_by_eppa_np"
+        },
+        {
+          "name": "eppa_p",
+          "bin_name": "gemm_by_eppa_p"
+        },
+        {
+          "name": "eppa_p_l2p",
+          "bin_name": "gemm_by_eppa_p_l2p"
+        }
+      ]
+    },
+    {
+      "M": 27,
+      "K": 3784,
+      "N": 176,
+      "thread_type": [
+        1,
+        1,
+        1
+      ],
+      "bins": [
+        {
+          "name": "eppa_np",
+          "bin_name": "gemm_by_eppa_np"
+        },
+        {
+          "name": "eppa_p",
+          "bin_name": "gemm_by_eppa_p"
+        },
+        {
+          "name": "eppa_p_l2p",
+          "bin_name": "gemm_by_eppa_p_l2p"
+        }
+      ]
+    },
+    {
+      "M": 28,
+      "K": 904,
+      "N": 544,
+      "thread_type": [
+        1,
+        1,
+        1
+      ],
+      "bins": [
+        {
+          "name": "eppa_np",
+          "bin_name": "gemm_by_eppa_np"
+        },
+        {
+          "name": "eppa_p",
+          "bin_name": "gemm_by_eppa_p"
+        },
+        {
+          "name": "eppa_p_l2p",
+          "bin_name": "gemm_by_eppa_p_l2p"
+        }
+      ]
+    },
+    {
+      "M": 28,
+      "K": 912,
+      "N": 912,
+      "thread_type": [
+        1,
+        1,
+        1
+      ],
+      "bins": [
+        {
+          "name": "eppa_np",
+          "bin_name": "gemm_by_eppa_np"
+        },
+        {
+          "name": "eppa_p",
+          "bin_name": "gemm_by_eppa_p"
+        },
+        {
+          "name": "eppa_p_l2p",
+          "bin_name": "gemm_by_eppa_p_l2p"
+        }
+      ]
+    },
+    {
+      "M": 28,
+      "K": 960,
+      "N": 960,
+      "thread_type": [
+        1,
+        1,
+        1
+      ],
+      "bins": [
+        {
+          "name": "eppa_np",
+          "bin_name": "gemm_by_eppa_np"
+        },
+        {
+          "name": "eppa_p",
+          "bin_name": "gemm_by_eppa_p"
+        },
+        {
+          "name": "eppa_p_l2p",
+          "bin_name": "gemm_by_eppa_p_l2p"
+        }
+      ]
+    },
+    {
+      "M": 28,
+      "K": 1000,
+      "N": 816,
+      "thread_type": [
+        1,
+        1,
+        1
+      ],
+      "bins": [
+        {
+          "name": "eppa_np",
+          "bin_name": "gemm_by_eppa_np"
+        },
+        {
+          "name": "eppa_p",
+          "bin_name": "gemm_by_eppa_p"
+        },
+        {
+          "name": "eppa_p_l2p",
+          "bin_name": "gemm_by_eppa_p_l2p"
+        }
+      ]
+    },
+    {
+      "M": 28,
+      "K": 1088,
+      "N": 288,
+      "thread_type": [
+        1,
+        1,
+        1
+      ],
+      "bins": [
+        {
+          "name": "eppa_np",
+          "bin_name": "gemm_by_eppa_np"
+        },
+        {
+          "name": "eppa_p",
+          "bin_name": "gemm_by_eppa_p"
+        },
+        {
+          "name": "eppa_p_l2p",
+          "bin_name": "gemm_by_eppa_p_l2p"
+        }
+      ]
+    },
+    {
+      "M": 28,
+      "K": 1168,
+      "N": 432,
+      "thread_type": [
+        1,
+        1,
+        1
+      ],
+      "bins": [
+        {
+          "name": "eppa_np",
+          "bin_name": "gemm_by_eppa_np"
+        },
+        {
+          "name": "eppa_p",
+          "bin_name": "gemm_by_eppa_p"
+        },
+        {
+          "name": "eppa_p_l2p",
+          "bin_name": "gemm_by_eppa_p_l2p"
+        }
+      ]
+    },
+    {
+      "M": 28,
+      "K": 1240,
+      "N": 576,
+      "thread_type": [
+        1,
+        1,
+        1
+      ],
+      "bins": [
+        {
+          "name": "eppa_np",
+          "bin_name": "gemm_by_eppa_np"
+        },
+        {
+          "name": "eppa_p",
+          "bin_name": "gemm_by_eppa_p"
+        },
+        {
+          "name": "eppa_p_l2p",
+          "bin_name": "gemm_by_eppa_p_l2p"
+        }
+      ]
+    },
+    {
+      "M": 28,
+      "K": 2304,
+      "N": 320,
+      "thread_type": [
+        1,
+        1,
+        1
+      ],
+      "bins": [
+        {
+          "name": "eppa_np",
+          "bin_name": "gemm_by_eppa_np"
+        },
+        {
+          "name": "eppa_p",
+          "bin_name": "gemm_by_eppa_p"
+        },
+        {
+          "name": "eppa_p_l2p",
+          "bin_name": "gemm_by_eppa_p_l2p"
+        }
+      ]
+    },
+    {
+      "M": 29,
+      "K": 336,
+      "N": 304,
+      "thread_type": [
+        1,
+        1,
+        1
+      ],
+      "bins": [
+        {
+          "name": "eppa_np",
+          "bin_name": "gemm_by_eppa_np"
+        },
+        {
+          "name": "eppa_p",
+          "bin_name": "gemm_by_eppa_p"
+        },
+        {
+          "name": "eppa_p_l2p",
+          "bin_name": "gemm_by_eppa_p_l2p"
+        }
+      ]
+    },
+    {
+      "M": 29,
+      "K": 680,
+      "N": 544,
+      "thread_type": [
+        1,
+        1,
+        1
+      ],
+      "bins": [
+        {
+          "name": "eppa_np",
+          "bin_name": "gemm_by_eppa_np"
+        },
+        {
+          "name": "eppa_p",
+          "bin_name": "gemm_by_eppa_p"
+        },
+        {
+          "name": "eppa_p_l2p",
+          "bin_name": "gemm_by_eppa_p_l2p"
+        }
+      ]
+    },
+    {
+      "M": 29,
+      "K": 880,
+      "N": 768,
+      "thread_type": [
+        1,
+        1,
+        1
+      ],
+      "bins": [
+        {
+          "name": "eppa_np",
+          "bin_name": "gemm_by_eppa_np"
+        },
+        {
+          "name": "eppa_p",
+          "bin_name": "gemm_by_eppa_p"
+        },
+        {
+          "name": "eppa_p_l2p",
+          "bin_name": "gemm_by_eppa_p_l2p"
+        }
+      ]
+    },
+    {
+      "M": 29,
+      "K": 968,
+      "N": 944,
+      "thread_type": [
+        1,
+        1,
+        1
+      ],
+      "bins": [
+        {
+          "name": "eppa_np",
+          "bin_name": "gemm_by_eppa_np"
+        },
+        {
+          "name": "eppa_p",
+          "bin_name": "gemm_by_eppa_p"
+        },
+        {
+          "name": "eppa_p_l2p",
+          "bin_name": "gemm_by_eppa_p_l2p"
+        }
+      ]
+    },
+    {
+      "M": 29,
+      "K": 976,
+      "N": 960,
+      "thread_type": [
+        1,
+        1,
+        1
+      ],
+      "bins": [
+        {
+          "name": "eppa_np",
+          "bin_name": "gemm_by_eppa_np"
+        },
+        {
+          "name": "eppa_p",
+          "bin_name": "gemm_by_eppa_p"
+        },
+        {
+          "name": "eppa_p_l2p",
+          "bin_name": "gemm_by_eppa_p_l2p"
+        }
+      ]
+    },
+    {
+      "M": 29,
+      "K": 992,
+      "N": 992,
+      "thread_type": [
+        1,
+        1,
+        1
+      ],
+      "bins": [
+        {
+          "name": "eppa_np",
+          "bin_name": "gemm_by_eppa_np"
+        },
+        {
+          "name": "eppa_p",
+          "bin_name": "gemm_by_eppa_p"
+        },
+        {
+          "name": "eppa_p_l2p",
+          "bin_name": "gemm_by_eppa_p_l2p"
+        }
+      ]
+    },
+    {
+      "M": 29,
+      "K": 1032,
+      "N": 944,
+      "thread_type": [
+        1,
+        1,
+        1
+      ],
+      "bins": [
+        {
+          "name": "eppa_np",
+          "bin_name": "gemm_by_eppa_np"
+        },
+        {
+          "name": "eppa_p",
+          "bin_name": "gemm_by_eppa_p"
+        },
+        {
+          "name": "eppa_p_l2p",
+          "bin_name": "gemm_by_eppa_p_l2p"
+        }
+      ]
+    },
+    {
+      "M": 29,
+      "K": 1400,
+      "N": 704,
+      "thread_type": [
+        1,
+        1,
+        1
+      ],
+      "bins": [
+        {
+          "name": "eppa_np",
+          "bin_name": "gemm_by_eppa_np"
+        },
+        {
+          "name": "eppa_p",
+          "bin_name": "gemm_by_eppa_p"
+        },
+        {
+          "name": "eppa_p_l2p",
+          "bin_name": "gemm_by_eppa_p_l2p"
+        }
+      ]
+    },
+    {
+      "M": 29,
+      "K": 1648,
+      "N": 176,
+      "thread_type": [
+        1,
+        1,
+        1
+      ],
+      "bins": [
+        {
+          "name": "eppa_np",
+          "bin_name": "gemm_by_eppa_np"
+        },
+        {
+          "name": "eppa_p",
+          "bin_name": "gemm_by_eppa_p"
+        },
+        {
+          "name": "eppa_p_l2p",
+          "bin_name": "gemm_by_eppa_p_l2p"
+        }
+      ]
+    },
+    {
+      "M": 29,
+      "K": 2064,
+      "N": 176,
+      "thread_type": [
+        1,
+        1,
+        1
+      ],
+      "bins": [
+        {
+          "name": "eppa_np",
+          "bin_name": "gemm_by_eppa_np"
+        },
+        {
+          "name": "eppa_p",
+          "bin_name": "gemm_by_eppa_p"
+        },
+        {
+          "name": "eppa_p_l2p",
+          "bin_name": "gemm_by_eppa_p_l2p"
+        }
+      ]
+    },
+    {
+      "M": 29,
+      "K": 5144,
+      "N": 64,
+      "thread_type": [
+        1,
+        1,
+        1
+      ],
+      "bins": [
+        {
+          "name": "eppa_np",
+          "bin_name": "gemm_by_eppa_np"
+        },
+        {
+          "name": "eppa_p",
+          "bin_name": "gemm_by_eppa_p"
+        },
+        {
+          "name": "eppa_p_l2p",
+          "bin_name": "gemm_by_eppa_p_l2p"
+        }
+      ]
+    },
+    {
+      "M": 30,
+      "K": 208,
+      "N": 80,
+      "thread_type": [
+        1,
+        1,
+        1
+      ],
+      "bins": [
+        {
+          "name": "eppa_np",
+          "bin_name": "gemm_by_eppa_np"
+        },
+        {
+          "name": "eppa_p",
+          "bin_name": "gemm_by_eppa_p"
+        },
+        {
+          "name": "eppa_p_l2p",
+          "bin_name": "gemm_by_eppa_p_l2p"
+        }
+      ]
+    },
+    {
+      "M": 30,
+      "K": 864,
+      "N": 288,
+      "thread_type": [
+        1,
+        1,
+        1
+      ],
+      "bins": [
+        {
+          "name": "eppa_np",
+          "bin_name": "gemm_by_eppa_np"
+        },
+        {
+          "name": "eppa_p",
+          "bin_name": "gemm_by_eppa_p"
+        },
+        {
+          "name": "eppa_p_l2p",
+          "bin_name": "gemm_by_eppa_p_l2p"
+        }
+      ]
+    },
+    {
+      "M": 30,
+      "K": 960,
+      "N": 832,
+      "thread_type": [
+        1,
+        1,
+        1
+      ],
+      "bins": [
+        {
+          "name": "eppa_np",
+          "bin_name": "gemm_by_eppa_np"
+        },
+        {
+          "name": "eppa_p",
+          "bin_name": "gemm_by_eppa_p"
+        },
+        {
+          "name": "eppa_p_l2p",
+          "bin_name": "gemm_by_eppa_p_l2p"
+        }
+      ]
+    },
+    {
+      "M": 30,
+      "K": 1016,
+      "N": 560,
+      "thread_type": [
+        1,
+        1,
+        1
+      ],
+      "bins": [
+        {
+          "name": "eppa_np",
+          "bin_name": "gemm_by_eppa_np"
+        },
+        {
+          "name": "eppa_p",
+          "bin_name": "gemm_by_eppa_p"
+        },
+        {
+          "name": "eppa_p_l2p",
+          "bin_name": "gemm_by_eppa_p_l2p"
+        }
+      ]
+    },
+    {
+      "M": 30,
+      "K": 1040,
+      "N": 928,
+      "thread_type": [
+        1,
+        1,
+        1
+      ],
+      "bins": [
+        {
+          "name": "eppa_np",
+          "bin_name": "gemm_by_eppa_np"
+        },
+        {
+          "name": "eppa_p",
+          "bin_name": "gemm_by_eppa_p"
+        },
+        {
+          "name": "eppa_p_l2p",
+          "bin_name": "gemm_by_eppa_p_l2p"
+        }
+      ]
+    },
+    {
+      "M": 30,
+      "K": 1280,
+      "N": 448,
+      "thread_type": [
+        1,
+        1,
+        1
+      ],
+      "bins": [
+        {
+          "name": "eppa_np",
+          "bin_name": "gemm_by_eppa_np"
+        },
+        {
+          "name": "eppa_p",
+          "bin_name": "gemm_by_eppa_p"
+        },
+        {
+          "name": "eppa_p_l2p",
+          "bin_name": "gemm_by_eppa_p_l2p"
+        }
+      ]
+    },
+    {
+      "M": 30,
+      "K": 1552,
+      "N": 576,
+      "thread_type": [
+        1,
+        1,
+        1
+      ],
+      "bins": [
+        {
+          "name": "eppa_np",
+          "bin_name": "gemm_by_eppa_np"
+        },
+        {
+          "name": "eppa_p",
+          "bin_name": "gemm_by_eppa_p"
+        },
+        {
+          "name": "eppa_p_l2p",
+          "bin_name": "gemm_by_eppa_p_l2p"
+        }
+      ]
+    },
+    {
+      "M": 30,
+      "K": 1992,
+      "N": 208,
+      "thread_type": [
+        1,
+        1,
+        1
+      ],
+      "bins": [
+        {
+          "name": "eppa_np",
+          "bin_name": "gemm_by_eppa_np"
+        },
+        {
+          "name": "eppa_p",
+          "bin_name": "gemm_by_eppa_p"
+        },
+        {
+          "name": "eppa_p_l2p",
+          "bin_name": "gemm_by_eppa_p_l2p"
+        }
+      ]
+    },
+    {
+      "M": 30,
+      "K": 2080,
+      "N": 368,
+      "thread_type": [
+        1,
+        1,
+        1
+      ],
+      "bins": [
+        {
+          "name": "eppa_np",
+          "bin_name": "gemm_by_eppa_np"
+        },
+        {
+          "name": "eppa_p",
+          "bin_name": "gemm_by_eppa_p"
+        },
+        {
+          "name": "eppa_p_l2p",
+          "bin_name": "gemm_by_eppa_p_l2p"
+        }
+      ]
+    },
+    {
+      "M": 30,
+      "K": 2416,
+      "N": 336,
+      "thread_type": [
+        1,
+        1,
+        1
+      ],
+      "bins": [
+        {
+          "name": "eppa_np",
+          "bin_name": "gemm_by_eppa_np"
+        },
+        {
+          "name": "eppa_p",
+          "bin_name": "gemm_by_eppa_p"
+        },
+        {
+          "name": "eppa_p_l2p",
+          "bin_name": "gemm_by_eppa_p_l2p"
+        }
+      ]
+    }
+  ]
+}
